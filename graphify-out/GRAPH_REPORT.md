@@ -1,13 +1,18 @@
-# Graph Report - roxware  (2026-10-14)
+# Graph Report - roxware  (2026-10-15)
 
 ## Corpus Check
-- 8 files · ~247,056 words
+- 8 files · ~247,072 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
 - 179 nodes · 199 edges · 11 communities (6 shown, 5 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `f44e8fed`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_Community 0|Community 0]]
