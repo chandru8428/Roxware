@@ -5,6 +5,9 @@ Roxware Consultancy is a creative web development and IT services studio website
 
 - **Repository**: [https://github.com/chandru8428/Roxware.git](https://github.com/chandru8428/Roxware.git)
 - **Branch**: `main`
+- **Live Production URL**: [https://roxware.vercel.app](https://roxware.vercel.app)
+- **Vercel Project URL**: [https://roxware-consultancy.vercel.app](https://roxware-consultancy.vercel.app)
+- **Vercel Dashboard**: [https://vercel.com/chandru-ks-projects-76d32ae7/roxware-consultancy](https://vercel.com/chandru-ks-projects-76d32ae7/roxware-consultancy)
 
 ## Purpose
 Professional online presence for Roxware Consultancy showcasing services (web development, digital marketing, SEO/GEO, IT infrastructure), case studies, testimonials, blog content, and a contact/project brief submission form.
@@ -16,7 +19,8 @@ Professional online presence for Roxware Consultancy showcasing services (web de
 | Styling | Vanilla CSS3 (custom properties, grid, flexbox) |
 | Logic | ES6+ JavaScript (no frameworks) |
 | Typography | Space Grotesk (display), Inter (body), JetBrains Mono (code) |
-| Hosting | Static files via `npx serve -l 8080` |
+| Hosting & Edge CDN | Vercel (Production) / `npx serve -l 8080` (Local) |
+| Configuration | `vercel.json` (clean URLs, security headers, caching) |
 | 3D (legacy) | Three.js (three-scenes.js, currently not loaded in multi-page version) |
 
 ## Pages
@@ -118,6 +122,7 @@ Camera moves follow the motion-scroll-site skill's library:
 - ✅ Search engine assets: robots.txt, sitemap.xml, site.webmanifest
 - ✅ Image SEO & Core Web Vitals optimization (100% explicit width/height, lazy loading, async decoding, zero CLS)
 - ✅ Hero clarity & contrast optimization: removed milky overlay, added top clearance to avoid navbar overlap, high-contrast typography, and live studio metrics (50+, 99.9%, < 24h)
+- ✅ Vercel Production Deployment: live with SSL, global CDN, clean URLs, and public access at https://roxware.vercel.app
 
 ## Roadmap
 - [ ] Generate actual motion videos from prompts (WebP frame sequences)

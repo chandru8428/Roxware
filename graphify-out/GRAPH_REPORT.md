@@ -1,16 +1,16 @@
 # Graph Report - roxware  (2026-10-15)
 
 ## Corpus Check
-- 8 files · ~249,165 words
+- 10 files · ~249,360 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 179 nodes · 199 edges · 11 communities (6 shown, 5 thin omitted)
+- 188 nodes · 206 edges · 13 communities (8 shown, 5 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `f424c469`
+- Built from commit: `8f27f27a`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -25,6 +25,8 @@
 - [[_COMMUNITY_Community 7|Community 7]]
 - [[_COMMUNITY_Community 9|Community 9]]
 - [[_COMMUNITY_Community 10|Community 10]]
+- [[_COMMUNITY_Community 11|Community 11]]
+- [[_COMMUNITY_Community 12|Community 12]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `initStoryScene()` - 15 edges
@@ -41,7 +43,7 @@
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
 
-## Communities (11 total, 5 thin omitted)
+## Communities (13 total, 5 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.08
@@ -63,8 +65,16 @@ Nodes (11): author, description, keywords, license, main, name, scripts, dev (+3
 Cohesion: 0.1
 Nodes (19): design_tokens, content_fade_multiplier, content_shift_px, hero_final_scale, hero_initial_scale, hero_max_translateY, overlay_gradient_dark, overlay_gradient_light (+11 more)
 
+### Community 11 - "Community 11"
+Cohesion: 0.4
+Nodes (4): cleanUrls, headers, trailingSlash, version
+
+### Community 12 - "Community 12"
+Cohesion: 0.5
+Nodes (3): orgId, projectId, projectName
+
 ## Knowledge Gaps
-- **114 isolated node(s):** `themeToggleBtn`, `mobileThemeToggleBtn`, `themeStorage`, `initialTheme`, `header` (+109 more)
+- **121 isolated node(s):** `themeToggleBtn`, `mobileThemeToggleBtn`, `themeStorage`, `initialTheme`, `header` (+116 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -72,7 +82,7 @@ Nodes (19): design_tokens, content_fade_multiplier, content_shift_px, hero_final
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `themeToggleBtn`, `mobileThemeToggleBtn`, `themeStorage` to the rest of the system?**
-  _114 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _121 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.08 - nodes in this community are weakly interconnected._
 - **Should `Community 5` be split into smaller, more focused modules?**

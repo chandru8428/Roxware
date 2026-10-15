@@ -19,6 +19,16 @@
     "ast_hash": "2c789de523d03ee5d5074b0f2f5862f7",
     "semantic_hash": ""
   },
+  "D:\\my freelance\\roxware\\vercel.json": {
+    "mtime": 1792048934.0730124,
+    "ast_hash": "0f3a6baef20289a0bc6ea980aaa9ebf7",
+    "semantic_hash": ""
+  },
+  "D:\\my freelance\\roxware\\.vercel\\project.json": {
+    "mtime": 1792049944.4097736,
+    "ast_hash": "739ac2d3bfdd9d8844b84b14ed88ea80",
+    "semantic_hash": ""
+  },
   "D:\\my freelance\\roxware\\about.html": {
     "mtime": 1792047745.8443074,
     "ast_hash": "7e6943669a1b506aad2bf3950f630121",
@@ -40,8 +50,8 @@
     "semantic_hash": ""
   },
   "D:\\my freelance\\roxware\\PROJECT.md": {
-    "mtime": 1792048451.917586,
-    "ast_hash": "8ae4ae82493d34d75ff4403592f3544c",
+    "mtime": 1792050245.3812845,
+    "ast_hash": "a152135773f74b297c6d80caa3ddc2b1",
     "semantic_hash": ""
   },
   "D:\\my freelance\\roxware\\robots.txt": {
@@ -67,6 +77,11 @@
   "D:\\my freelance\\roxware\\.kilo\\agents\\data.md": {
     "mtime": 1791443382.7617419,
     "ast_hash": "2507f8f4cc0f2e664cbee67cc0f59a9d",
+    "semantic_hash": ""
+  },
+  "D:\\my freelance\\roxware\\.vercel\\README.txt": {
+    "mtime": 1792049944.4097736,
+    "ast_hash": "2b13c79d37d6ed82a3255b83b6815034",
     "semantic_hash": ""
   },
   "D:\\my freelance\\roxware\\public\\case_creator.jpg": {

@@ -24,3 +24,6 @@ ehthumbs.db
 # Local agent caches
 .kilo/
 graphify-out/cache/
+
+.vercel
+.env*

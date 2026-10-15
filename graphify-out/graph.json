@@ -1066,6 +1066,87 @@
       "norm_label": "initstoryscene()"
     },
     {
+      "label": "vercel.json",
+      "file_type": "code",
+      "source_file": "vercel.json",
+      "source_location": "L1",
+      "id": "vercel_json",
+      "community": 11,
+      "norm_label": "vercel.json"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "vercel.json",
+      "source_location": "L2",
+      "id": "roxware_vercel_version",
+      "community": 11,
+      "norm_label": "version"
+    },
+    {
+      "label": "cleanUrls",
+      "file_type": "code",
+      "source_file": "vercel.json",
+      "source_location": "L3",
+      "id": "roxware_vercel_cleanurls",
+      "community": 11,
+      "norm_label": "cleanurls"
+    },
+    {
+      "label": "trailingSlash",
+      "file_type": "code",
+      "source_file": "vercel.json",
+      "source_location": "L4",
+      "id": "roxware_vercel_trailingslash",
+      "community": 11,
+      "norm_label": "trailingslash"
+    },
+    {
+      "label": "headers",
+      "file_type": "code",
+      "source_file": "vercel.json",
+      "source_location": "L5",
+      "id": "roxware_vercel_headers",
+      "community": 11,
+      "norm_label": "headers"
+    },
+    {
+      "label": "project.json",
+      "file_type": "code",
+      "source_file": ".vercel/project.json",
+      "source_location": "L1",
+      "id": "vercel_project_json",
+      "community": 12,
+      "norm_label": "project.json"
+    },
+    {
+      "label": "projectId",
+      "file_type": "code",
+      "source_file": ".vercel/project.json",
+      "source_location": "L1",
+      "id": "vercel_project_projectid",
+      "community": 12,
+      "norm_label": "projectid"
+    },
+    {
+      "label": "orgId",
+      "file_type": "code",
+      "source_file": ".vercel/project.json",
+      "source_location": "L1",
+      "id": "vercel_project_orgid",
+      "community": 12,
+      "norm_label": "orgid"
+    },
+    {
+      "label": "projectName",
+      "file_type": "code",
+      "source_file": ".vercel/project.json",
+      "source_location": "L1",
+      "id": "vercel_project_projectname",
+      "community": 12,
+      "norm_label": "projectname"
+    },
+    {
       "label": "PROJECT.md",
       "file_type": "document",
       "source_file": "PROJECT.md",
@@ -1096,7 +1177,7 @@
       "label": "Purpose",
       "file_type": "document",
       "source_file": "PROJECT.md",
-      "source_location": "L9",
+      "source_location": "L12",
       "id": "roxware_project_purpose",
       "community": 0,
       "norm_label": "purpose"
@@ -1105,7 +1186,7 @@
       "label": "Tech Stack",
       "file_type": "document",
       "source_file": "PROJECT.md",
-      "source_location": "L12",
+      "source_location": "L15",
       "id": "roxware_project_tech_stack",
       "community": 0,
       "norm_label": "tech stack"
@@ -1114,7 +1195,7 @@
       "label": "Pages",
       "file_type": "document",
       "source_file": "PROJECT.md",
-      "source_location": "L22",
+      "source_location": "L26",
       "id": "roxware_project_pages",
       "community": 0,
       "norm_label": "pages"
@@ -1123,7 +1204,7 @@
       "label": "Installation & Development",
       "file_type": "document",
       "source_file": "PROJECT.md",
-      "source_location": "L31",
+      "source_location": "L35",
       "id": "roxware_project_installation_development",
       "community": 0,
       "norm_label": "installation & development"
@@ -1132,7 +1213,7 @@
       "label": "code:bash (# Install dependencies (just the serve tool))",
       "file_type": "document",
       "source_file": "PROJECT.md",
-      "source_location": "L32",
+      "source_location": "L36",
       "id": "roxware_project_codeblock_1",
       "community": 0,
       "norm_label": "code:bash (# install dependencies (just the serve tool))"
@@ -1141,7 +1222,7 @@
       "label": "Folder Structure",
       "file_type": "document",
       "source_file": "PROJECT.md",
-      "source_location": "L41",
+      "source_location": "L45",
       "id": "roxware_project_folder_structure",
       "community": 0,
       "norm_label": "folder structure"
@@ -1150,7 +1231,7 @@
       "label": "code:block2 (roxware/)",
       "file_type": "document",
       "source_file": "PROJECT.md",
-      "source_location": "L42",
+      "source_location": "L46",
       "id": "roxware_project_codeblock_2",
       "community": 0,
       "norm_label": "code:block2 (roxware/)"
@@ -1159,7 +1240,7 @@
       "label": "Architecture Overview",
       "file_type": "document",
       "source_file": "PROJECT.md",
-      "source_location": "L70",
+      "source_location": "L74",
       "id": "roxware_project_architecture_overview",
       "community": 0,
       "norm_label": "architecture overview"
@@ -1168,7 +1249,7 @@
       "label": "Photo-Frame Scroll-Driven Hero System",
       "file_type": "document",
       "source_file": "PROJECT.md",
-      "source_location": "L72",
+      "source_location": "L76",
       "id": "roxware_project_photo_frame_scroll_driven_hero_system",
       "community": 0,
       "norm_label": "photo-frame scroll-driven hero system"
@@ -1177,7 +1258,7 @@
       "label": "Design System (CSS Custom Properties)",
       "file_type": "document",
       "source_file": "PROJECT.md",
-      "source_location": "L80",
+      "source_location": "L84",
       "id": "roxware_project_design_system_css_custom_properties",
       "community": 0,
       "norm_label": "design system (css custom properties)"
@@ -1186,7 +1267,7 @@
       "label": "Multi-Page Navigation",
       "file_type": "document",
       "source_file": "PROJECT.md",
-      "source_location": "L85",
+      "source_location": "L89",
       "id": "roxware_project_multi_page_navigation",
       "community": 0,
       "norm_label": "multi-page navigation"
@@ -1195,7 +1276,7 @@
       "label": "Motion Prompts",
       "file_type": "document",
       "source_file": "PROJECT.md",
-      "source_location": "L90",
+      "source_location": "L94",
       "id": "roxware_project_motion_prompts",
       "community": 0,
       "norm_label": "motion prompts"
@@ -1204,7 +1285,7 @@
       "label": "Current Status",
       "file_type": "document",
       "source_file": "PROJECT.md",
-      "source_location": "L104",
+      "source_location": "L108",
       "id": "roxware_project_current_status",
       "community": 0,
       "norm_label": "current status"
@@ -1213,7 +1294,7 @@
       "label": "Roadmap",
       "file_type": "document",
       "source_file": "PROJECT.md",
-      "source_location": "L122",
+      "source_location": "L127",
       "id": "roxware_project_roadmap",
       "community": 0,
       "norm_label": "roadmap"
@@ -3345,6 +3426,76 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "vercel.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "vercel_json",
+      "target": "roxware_vercel_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "vercel.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "vercel_json",
+      "target": "roxware_vercel_cleanurls",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "vercel.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "vercel_json",
+      "target": "roxware_vercel_trailingslash",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "vercel.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "vercel_json",
+      "target": "roxware_vercel_headers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".vercel/project.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "vercel_project_json",
+      "target": "vercel_project_projectid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".vercel/project.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "vercel_project_json",
+      "target": "vercel_project_orgid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".vercel/project.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "vercel_project_json",
+      "target": "vercel_project_projectname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "PROJECT.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -3634,5 +3785,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "f424c46972f3d0fbaa20a447e9db00cfc9767833"
+  "built_at_commit": "8f27f27a23b495c7b4fe68dffc2f1aa7f911bbe7"
 }
