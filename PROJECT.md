@@ -109,6 +109,7 @@ Camera moves follow the motion-scroll-site skill's library:
 - ✅ Contact form with validation
 - ✅ Testimonial slider
 - ✅ Blog card grid
+- ✅ Repository connected & published to GitHub (`main` branch)
 
 ## Roadmap
 - [ ] Generate actual motion videos from prompts (WebP frame sequences)
