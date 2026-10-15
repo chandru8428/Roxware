@@ -1,0 +1,19 @@
+# robots.txt for Roxware Consultancy
+# https://chandru8428.github.io/Roxware/
+
+User-agent: *
+Allow: /
+Allow: /styles.css
+Allow: /app.js
+Allow: /three-scenes.js
+Allow: /public/
+
+# Disallow private and administrative assets
+Disallow: /.git/
+Disallow: /.agents/
+Disallow: /graphify-out/
+Disallow: /motion-prompts.json
+Disallow: /package.json
+
+# Sitemaps
+Sitemap: https://chandru8428.github.io/Roxware/sitemap.xml

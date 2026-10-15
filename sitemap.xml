@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
+
+  <!-- Home Page -->
+  <url>
+    <loc>https://chandru8428.github.io/Roxware/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://chandru8428.github.io/Roxware/public/hero_home.jpg</image:loc>
+      <image:title>Roxware Consultancy Tech Studio Workspace</image:title>
+      <image:caption>High-performance web development and creative tech studio workspace</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Services Page -->
+  <url>
+    <loc>https://chandru8428.github.io/Roxware/services.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chandru8428.github.io/Roxware/public/hero_services.jpg</image:loc>
+      <image:title>Roxware Digital Engineering and Web Development Services</image:title>
+      <image:caption>Custom web development, digital marketing, SEO and IT support services</image:caption>
+    </image:image>
+  </url>
+
+  <!-- About Us Page -->
+  <url>
+    <loc>https://chandru8428.github.io/Roxware/about.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://chandru8428.github.io/Roxware/public/hero_about.jpg</image:loc>
+      <image:title>About Roxware Consultancy Team and Studio</image:title>
+      <image:caption>Creative engineering studio based in Tamil Nadu, India</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Blog Page -->
+  <url>
+    <loc>https://chandru8428.github.io/Roxware/blog.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://chandru8428.github.io/Roxware/public/hero_blog.jpg</image:loc>
+      <image:title>Roxware Tech Insights and Engineering Blog</image:title>
+      <image:caption>Articles on web performance, UX design, SEO, and IT reliability</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://chandru8428.github.io/Roxware/contact.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://chandru8428.github.io/Roxware/public/hero_contact.jpg</image:loc>
+      <image:title>Contact Roxware Consultancy</image:title>
+      <image:caption>Start your next digital project with Roxware Consultancy</image:caption>
+    </image:image>
+  </url>
+
+</urlset>

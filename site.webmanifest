@@ -1,0 +1,21 @@
+{
+  "name": "Roxware Consultancy",
+  "short_name": "Roxware",
+  "description": "High-Performance Web Development, Creative Tech & Digital Growth Studio",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0A0E14",
+  "theme_color": "#C87431",
+  "icons": [
+    {
+      "src": "public/logo.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "public/logo.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}

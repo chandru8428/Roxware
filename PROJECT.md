@@ -41,11 +41,14 @@ npm run dev
 ## Folder Structure
 ```
 roxware/
-├── index.html              # Home page
-├── services.html           # Services page
-├── about.html              # About Us page
-├── blog.html               # Blog page
-├── contact.html            # Contact page
+├── index.html              # Home page (with Organization, WebSite & FAQ Schema)
+├── services.html           # Services page (with Service catalogue & Breadcrumb Schema)
+├── about.html              # About Us page (with AboutPage & Breadcrumb Schema)
+├── blog.html               # Blog page (with Blog & BlogPosting Schema)
+├── contact.html            # Contact page (with ContactPage & Breadcrumb Schema)
+├── sitemap.xml             # Complete XML sitemap with image extensions
+├── robots.txt              # Search engine crawling policies
+├── site.webmanifest        # PWA & mobile search manifest
 ├── styles.css              # Complete design system & all component styles
 ├── app.js                  # Theme toggle, mobile drawer, scroll parallax, forms
 ├── three-scenes.js         # Three.js 3D scenes (legacy, not loaded in multi-page)
@@ -110,6 +113,10 @@ Camera moves follow the motion-scroll-site skill's library:
 - ✅ Testimonial slider
 - ✅ Blog card grid
 - ✅ Repository connected & published to GitHub (`main` branch)
+- ✅ Advanced On-Page SEO: Open Graph, Twitter cards, canonical tags & targeted keywords
+- ✅ Schema.org JSON-LD structured data (ProfessionalService, WebSite, FAQPage, Service, AboutPage, Blog, ContactPage, Breadcrumbs)
+- ✅ Search engine assets: robots.txt, sitemap.xml, site.webmanifest
+- ✅ Image SEO & Core Web Vitals optimization (100% explicit width/height, lazy loading, async decoding, zero CLS)
 
 ## Roadmap
 - [ ] Generate actual motion videos from prompts (WebP frame sequences)
