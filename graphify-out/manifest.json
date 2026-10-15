@@ -1,0 +1,117 @@
+{
+  "D:\\my freelance\\roxware\\app.js": {
+    "mtime": 1791950439.669818,
+    "ast_hash": "324138ea61230233c7f32f6ea3c33daf",
+    "semantic_hash": ""
+  },
+  "D:\\my freelance\\roxware\\motion-prompts.json": {
+    "mtime": 1791949750.9968114,
+    "ast_hash": "3c560ee5ab953116f0181465e647f062",
+    "semantic_hash": ""
+  },
+  "D:\\my freelance\\roxware\\package.json": {
+    "mtime": 1791600360.0489857,
+    "ast_hash": "187d30685b6ab0f23de695c6eb808e95",
+    "semantic_hash": ""
+  },
+  "D:\\my freelance\\roxware\\three-scenes.js": {
+    "mtime": 1791650231.0931935,
+    "ast_hash": "2c789de523d03ee5d5074b0f2f5862f7",
+    "semantic_hash": ""
+  },
+  "D:\\my freelance\\roxware\\about.html": {
+    "mtime": 1791948947.3095405,
+    "ast_hash": "07592ed0c977c18f687e550b9cbceae8",
+    "semantic_hash": ""
+  },
+  "D:\\my freelance\\roxware\\blog.html": {
+    "mtime": 1791949058.5249932,
+    "ast_hash": "1506950da973bfce1e4a6e748303ebac",
+    "semantic_hash": ""
+  },
+  "D:\\my freelance\\roxware\\contact.html": {
+    "mtime": 1791948998.8185594,
+    "ast_hash": "9e78aa54a355b8b0e9e06d5300833f0b",
+    "semantic_hash": ""
+  },
+  "D:\\my freelance\\roxware\\index.html": {
+    "mtime": 1791948811.70042,
+    "ast_hash": "ec177ca508a535cb5a2b9f36af7059cd",
+    "semantic_hash": ""
+  },
+  "D:\\my freelance\\roxware\\PROJECT.md": {
+    "mtime": 1791949957.3713613,
+    "ast_hash": "735ca2ddc21a24fb79c99120e9b4b586",
+    "semantic_hash": ""
+  },
+  "D:\\my freelance\\roxware\\services.html": {
+    "mtime": 1791948889.894982,
+    "ast_hash": "047229e29b6ed1cdcfb92fc6b50824df",
+    "semantic_hash": ""
+  },
+  "D:\\my freelance\\roxware\\.agents\\rules\\graphify.md": {
+    "mtime": 1788874674.173234,
+    "ast_hash": "56d322bc02e948acf8a5abc7fd5d20ff",
+    "semantic_hash": ""
+  },
+  "D:\\my freelance\\roxware\\.agents\\workflows\\graphify.md": {
+    "mtime": 1788874674.1769135,
+    "ast_hash": "84de69efd46ab0b8430393bd4188f8f2",
+    "semantic_hash": ""
+  },
+  "D:\\my freelance\\roxware\\.kilo\\agents\\data.md": {
+    "mtime": 1791443382.7617419,
+    "ast_hash": "2507f8f4cc0f2e664cbee67cc0f59a9d",
+    "semantic_hash": ""
+  },
+  "D:\\my freelance\\roxware\\public\\case_creator.jpg": {
+    "mtime": 1788876056.955937,
+    "ast_hash": "e8a12d529b1909f8e60494274c08855f",
+    "semantic_hash": ""
+  },
+  "D:\\my freelance\\roxware\\public\\case_retail.jpg": {
+    "mtime": 1788876034.1402724,
+    "ast_hash": "23b7332ea825541e62ceb76704039bf4",
+    "semantic_hash": ""
+  },
+  "D:\\my freelance\\roxware\\public\\case_saas.jpg": {
+    "mtime": 1788876007.0690465,
+    "ast_hash": "992c83b289de27ed1a9fd35c6fa65dac",
+    "semantic_hash": ""
+  },
+  "D:\\my freelance\\roxware\\public\\hero_about.jpg": {
+    "mtime": 1791948507.1873128,
+    "ast_hash": "b8f76295255fabfd2c72a2dd7c2c7abd",
+    "semantic_hash": ""
+  },
+  "D:\\my freelance\\roxware\\public\\hero_blog.jpg": {
+    "mtime": 1791948602.9958012,
+    "ast_hash": "f61d8c7daf02f10d5462cdec67772e81",
+    "semantic_hash": ""
+  },
+  "D:\\my freelance\\roxware\\public\\hero_contact.jpg": {
+    "mtime": 1791948531.1449978,
+    "ast_hash": "641896f5db21dd24f7d664720b6646cc",
+    "semantic_hash": ""
+  },
+  "D:\\my freelance\\roxware\\public\\hero_home.jpg": {
+    "mtime": 1791948454.653031,
+    "ast_hash": "b90cfd95163a8ffb91d7c71e5fe9e6d8",
+    "semantic_hash": ""
+  },
+  "D:\\my freelance\\roxware\\public\\hero_rocks.jpg": {
+    "mtime": 1788875966.2904422,
+    "ast_hash": "7716121563391b0044665dfbd3324fe5",
+    "semantic_hash": ""
+  },
+  "D:\\my freelance\\roxware\\public\\hero_services.jpg": {
+    "mtime": 1791948487.3808165,
+    "ast_hash": "d9a8428105a9bf3b120f54fac7c612ff",
+    "semantic_hash": ""
+  },
+  "D:\\my freelance\\roxware\\public\\logo.jpeg": {
+    "mtime": 1788715334.8841684,
+    "ast_hash": "50066a3a21152fcadd4f0ebce46d43f0",
+    "semantic_hash": ""
+  }
+}

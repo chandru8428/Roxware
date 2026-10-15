@@ -1,0 +1,3637 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "app.js",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L1",
+      "id": "app_js",
+      "community": 5,
+      "norm_label": "app.js"
+    },
+    {
+      "label": "themeToggleBtn",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L14",
+      "id": "roxware_app_themetogglebtn",
+      "community": 5,
+      "norm_label": "themetogglebtn"
+    },
+    {
+      "label": "mobileThemeToggleBtn",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L15",
+      "id": "roxware_app_mobilethemetogglebtn",
+      "community": 5,
+      "norm_label": "mobilethemetogglebtn"
+    },
+    {
+      "label": "themeStorage",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L17",
+      "id": "roxware_app_themestorage",
+      "community": 5,
+      "norm_label": "themestorage"
+    },
+    {
+      "label": "getInitialTheme()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L34",
+      "id": "roxware_app_getinitialtheme",
+      "community": 5,
+      "norm_label": "getinitialtheme()"
+    },
+    {
+      "label": "applyTheme()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L40",
+      "id": "roxware_app_applytheme",
+      "community": 6,
+      "norm_label": "applytheme()"
+    },
+    {
+      "label": "initialTheme",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L63",
+      "id": "roxware_app_initialtheme",
+      "community": 5,
+      "norm_label": "initialtheme"
+    },
+    {
+      "label": "toggleTheme()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L66",
+      "id": "roxware_app_toggletheme",
+      "community": 6,
+      "norm_label": "toggletheme()"
+    },
+    {
+      "label": "header",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L80",
+      "id": "roxware_app_header",
+      "community": 5,
+      "norm_label": "header"
+    },
+    {
+      "label": "onScroll()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L82",
+      "id": "roxware_app_onscroll",
+      "community": 5,
+      "norm_label": "onscroll()"
+    },
+    {
+      "label": "mobileToggle",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L93",
+      "id": "roxware_app_mobiletoggle",
+      "community": 5,
+      "norm_label": "mobiletoggle"
+    },
+    {
+      "label": "mobileDrawer",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L94",
+      "id": "roxware_app_mobiledrawer",
+      "community": 5,
+      "norm_label": "mobiledrawer"
+    },
+    {
+      "label": "mobileLinks",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L95",
+      "id": "roxware_app_mobilelinks",
+      "community": 5,
+      "norm_label": "mobilelinks"
+    },
+    {
+      "label": "setDrawerOpen()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L98",
+      "id": "roxware_app_setdraweropen",
+      "community": 5,
+      "norm_label": "setdraweropen()"
+    },
+    {
+      "label": "focusables",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L121",
+      "id": "roxware_app_focusables",
+      "community": 5,
+      "norm_label": "focusables"
+    },
+    {
+      "label": "photoHeroContainer",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L151",
+      "id": "roxware_app_photoherocontainer",
+      "community": 5,
+      "norm_label": "photoherocontainer"
+    },
+    {
+      "label": "photoHeroImg",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L152",
+      "id": "roxware_app_photoheroimg",
+      "community": 5,
+      "norm_label": "photoheroimg"
+    },
+    {
+      "label": "photoHeroContent",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L153",
+      "id": "roxware_app_photoherocontent",
+      "community": 5,
+      "norm_label": "photoherocontent"
+    },
+    {
+      "label": "rect",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L161",
+      "id": "roxware_app_rect",
+      "community": 5,
+      "norm_label": "rect"
+    },
+    {
+      "label": "progress",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L162",
+      "id": "roxware_app_progress",
+      "community": 5,
+      "norm_label": "progress"
+    },
+    {
+      "label": "heroTick()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L166",
+      "id": "roxware_app_herotick",
+      "community": 5,
+      "norm_label": "herotick()"
+    },
+    {
+      "label": "heroRevealEls",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L194",
+      "id": "roxware_app_herorevealels",
+      "community": 5,
+      "norm_label": "herorevealels"
+    },
+    {
+      "label": "showHeroReveals()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L195",
+      "id": "roxware_app_showheroreveals",
+      "community": 5,
+      "norm_label": "showheroreveals()"
+    },
+    {
+      "label": "revealEls",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L205",
+      "id": "roxware_app_revealels",
+      "community": 5,
+      "norm_label": "revealels"
+    },
+    {
+      "label": "revealObserver",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L207",
+      "id": "roxware_app_revealobserver",
+      "community": 5,
+      "norm_label": "revealobserver"
+    },
+    {
+      "label": "bentoCards",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L234",
+      "id": "roxware_app_bentocards",
+      "community": 5,
+      "norm_label": "bentocards"
+    },
+    {
+      "label": "tiltCards",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L247",
+      "id": "roxware_app_tiltcards",
+      "community": 5,
+      "norm_label": "tiltcards"
+    },
+    {
+      "label": "slides",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L267",
+      "id": "roxware_app_slides",
+      "community": 5,
+      "norm_label": "slides"
+    },
+    {
+      "label": "dots",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L268",
+      "id": "roxware_app_dots",
+      "community": 5,
+      "norm_label": "dots"
+    },
+    {
+      "label": "sliderWrap",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L271",
+      "id": "roxware_app_sliderwrap",
+      "community": 5,
+      "norm_label": "sliderwrap"
+    },
+    {
+      "label": "showSlide()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L273",
+      "id": "roxware_app_showslide",
+      "community": 3,
+      "norm_label": "showslide()"
+    },
+    {
+      "label": "nextSlide()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L286",
+      "id": "roxware_app_nextslide",
+      "community": 3,
+      "norm_label": "nextslide()"
+    },
+    {
+      "label": "startSlideTimer()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L291",
+      "id": "roxware_app_startslidetimer",
+      "community": 5,
+      "norm_label": "startslidetimer()"
+    },
+    {
+      "label": "stopSlideTimer()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L297",
+      "id": "roxware_app_stopslidetimer",
+      "community": 5,
+      "norm_label": "stopslidetimer()"
+    },
+    {
+      "label": "plannerState",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L333",
+      "id": "roxware_app_plannerstate",
+      "community": 5,
+      "norm_label": "plannerstate"
+    },
+    {
+      "label": "plannerConfig",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L339",
+      "id": "roxware_app_plannerconfig",
+      "community": 5,
+      "norm_label": "plannerconfig"
+    },
+    {
+      "label": "outputTextEl",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L360",
+      "id": "roxware_app_outputtextel",
+      "community": 5,
+      "norm_label": "outputtextel"
+    },
+    {
+      "label": "plannerCards",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L361",
+      "id": "roxware_app_plannercards",
+      "community": 5,
+      "norm_label": "plannercards"
+    },
+    {
+      "label": "btnSendPlannerIdea",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L362",
+      "id": "roxware_app_btnsendplanneridea",
+      "community": 5,
+      "norm_label": "btnsendplanneridea"
+    },
+    {
+      "label": "updatePlannerCopy()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L364",
+      "id": "roxware_app_updateplannercopy",
+      "community": 2,
+      "norm_label": "updateplannercopy()"
+    },
+    {
+      "label": "isSelected",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L375",
+      "id": "roxware_app_isselected",
+      "community": 5,
+      "norm_label": "isselected"
+    },
+    {
+      "label": "selectPlannerCard()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L379",
+      "id": "roxware_app_selectplannercard",
+      "community": 2,
+      "norm_label": "selectplannercard()"
+    },
+    {
+      "label": "groupCards",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L402",
+      "id": "roxware_app_groupcards",
+      "community": 5,
+      "norm_label": "groupcards"
+    },
+    {
+      "label": "i",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L403",
+      "id": "roxware_app_i",
+      "community": 5,
+      "norm_label": "i"
+    },
+    {
+      "label": "params",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L424",
+      "id": "roxware_app_params",
+      "community": 5,
+      "norm_label": "params"
+    },
+    {
+      "label": "contactForm",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L436",
+      "id": "roxware_app_contactform",
+      "community": 5,
+      "norm_label": "contactform"
+    },
+    {
+      "label": "formSuccess",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L437",
+      "id": "roxware_app_formsuccess",
+      "community": 5,
+      "norm_label": "formsuccess"
+    },
+    {
+      "label": "urlParams",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L441",
+      "id": "roxware_app_urlparams",
+      "community": 5,
+      "norm_label": "urlparams"
+    },
+    {
+      "label": "plannerData",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L442",
+      "id": "roxware_app_plannerdata",
+      "community": 5,
+      "norm_label": "plannerdata"
+    },
+    {
+      "label": "plannerParams",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L444",
+      "id": "roxware_app_plannerparams",
+      "community": 5,
+      "norm_label": "plannerparams"
+    },
+    {
+      "label": "messageField",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L445",
+      "id": "roxware_app_messagefield",
+      "community": 5,
+      "norm_label": "messagefield"
+    },
+    {
+      "label": "formError",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L455",
+      "id": "roxware_app_formerror",
+      "community": 5,
+      "norm_label": "formerror"
+    },
+    {
+      "label": "showFormError()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L466",
+      "id": "roxware_app_showformerror",
+      "community": 5,
+      "norm_label": "showformerror()"
+    },
+    {
+      "label": "clearFormError()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L472",
+      "id": "roxware_app_clearformerror",
+      "community": 5,
+      "norm_label": "clearformerror()"
+    },
+    {
+      "label": "nameEl",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L482",
+      "id": "roxware_app_nameel",
+      "community": 5,
+      "norm_label": "nameel"
+    },
+    {
+      "label": "emailEl",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L483",
+      "id": "roxware_app_emailel",
+      "community": 5,
+      "norm_label": "emailel"
+    },
+    {
+      "label": "messageEl",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L484",
+      "id": "roxware_app_messageel",
+      "community": 5,
+      "norm_label": "messageel"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L485",
+      "id": "roxware_app_name",
+      "community": 5,
+      "norm_label": "name"
+    },
+    {
+      "label": "email",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L486",
+      "id": "roxware_app_email",
+      "community": 5,
+      "norm_label": "email"
+    },
+    {
+      "label": "message",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L487",
+      "id": "roxware_app_message",
+      "community": 5,
+      "norm_label": "message"
+    },
+    {
+      "label": "submitBtn",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L505",
+      "id": "roxware_app_submitbtn",
+      "community": 5,
+      "norm_label": "submitbtn"
+    },
+    {
+      "label": "heading",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L514",
+      "id": "roxware_app_heading",
+      "community": 5,
+      "norm_label": "heading"
+    },
+    {
+      "label": "rawPath",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L532",
+      "id": "roxware_app_rawpath",
+      "community": 5,
+      "norm_label": "rawpath"
+    },
+    {
+      "label": "pathSegment",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L533",
+      "id": "roxware_app_pathsegment",
+      "community": 5,
+      "norm_label": "pathsegment"
+    },
+    {
+      "label": "allNavLinks",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L536",
+      "id": "roxware_app_allnavlinks",
+      "community": 5,
+      "norm_label": "allnavlinks"
+    },
+    {
+      "label": "hrefClean",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L540",
+      "id": "roxware_app_hrefclean",
+      "community": 5,
+      "norm_label": "hrefclean"
+    },
+    {
+      "label": "hrefSegment",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L541",
+      "id": "roxware_app_hrefsegment",
+      "community": 5,
+      "norm_label": "hrefsegment"
+    },
+    {
+      "label": "motion-prompts.json",
+      "file_type": "code",
+      "source_file": "motion-prompts.json",
+      "source_location": "L1",
+      "id": "motion_prompts_json",
+      "community": 10,
+      "norm_label": "motion-prompts.json"
+    },
+    {
+      "label": "project",
+      "file_type": "code",
+      "source_file": "motion-prompts.json",
+      "source_location": "L2",
+      "id": "roxware_motion_prompts_project",
+      "community": 10,
+      "norm_label": "project"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "motion-prompts.json",
+      "source_location": "L3",
+      "id": "roxware_motion_prompts_version",
+      "community": 10,
+      "norm_label": "version"
+    },
+    {
+      "label": "notes",
+      "file_type": "code",
+      "source_file": "motion-prompts.json",
+      "source_location": "L4",
+      "id": "roxware_motion_prompts_notes",
+      "community": 10,
+      "norm_label": "notes"
+    },
+    {
+      "label": "pages",
+      "file_type": "code",
+      "source_file": "motion-prompts.json",
+      "source_location": "L6",
+      "id": "roxware_motion_prompts_pages",
+      "community": 10,
+      "norm_label": "pages"
+    },
+    {
+      "label": "global_scroll_config",
+      "file_type": "code",
+      "source_file": "motion-prompts.json",
+      "source_location": "L227",
+      "id": "roxware_motion_prompts_global_scroll_config",
+      "community": 10,
+      "norm_label": "global_scroll_config"
+    },
+    {
+      "label": "scroll_engine",
+      "file_type": "code",
+      "source_file": "motion-prompts.json",
+      "source_location": "L228",
+      "id": "roxware_motion_prompts_global_scroll_config_scroll_engine",
+      "community": 10,
+      "norm_label": "scroll_engine"
+    },
+    {
+      "label": "lerp_factor",
+      "file_type": "code",
+      "source_file": "motion-prompts.json",
+      "source_location": "L229",
+      "id": "roxware_motion_prompts_global_scroll_config_lerp_factor",
+      "community": 10,
+      "norm_label": "lerp_factor"
+    },
+    {
+      "label": "parallax_technique",
+      "file_type": "code",
+      "source_file": "motion-prompts.json",
+      "source_location": "L230",
+      "id": "roxware_motion_prompts_global_scroll_config_parallax_technique",
+      "community": 10,
+      "norm_label": "parallax_technique"
+    },
+    {
+      "label": "fallback",
+      "file_type": "code",
+      "source_file": "motion-prompts.json",
+      "source_location": "L231",
+      "id": "roxware_motion_prompts_global_scroll_config_fallback",
+      "community": 10,
+      "norm_label": "fallback"
+    },
+    {
+      "label": "frame_extraction_format",
+      "file_type": "code",
+      "source_file": "motion-prompts.json",
+      "source_location": "L232",
+      "id": "roxware_motion_prompts_global_scroll_config_frame_extraction_format",
+      "community": 10,
+      "norm_label": "frame_extraction_format"
+    },
+    {
+      "label": "canvas_scrub_method",
+      "file_type": "code",
+      "source_file": "motion-prompts.json",
+      "source_location": "L233",
+      "id": "roxware_motion_prompts_global_scroll_config_canvas_scrub_method",
+      "community": 10,
+      "norm_label": "canvas_scrub_method"
+    },
+    {
+      "label": "design_tokens",
+      "file_type": "code",
+      "source_file": "motion-prompts.json",
+      "source_location": "L236",
+      "id": "roxware_motion_prompts_design_tokens",
+      "community": 10,
+      "norm_label": "design_tokens"
+    },
+    {
+      "label": "hero_initial_scale",
+      "file_type": "code",
+      "source_file": "motion-prompts.json",
+      "source_location": "L237",
+      "id": "roxware_motion_prompts_design_tokens_hero_initial_scale",
+      "community": 10,
+      "norm_label": "hero_initial_scale"
+    },
+    {
+      "label": "hero_final_scale",
+      "file_type": "code",
+      "source_file": "motion-prompts.json",
+      "source_location": "L238",
+      "id": "roxware_motion_prompts_design_tokens_hero_final_scale",
+      "community": 10,
+      "norm_label": "hero_final_scale"
+    },
+    {
+      "label": "hero_max_translateY",
+      "file_type": "code",
+      "source_file": "motion-prompts.json",
+      "source_location": "L239",
+      "id": "roxware_motion_prompts_design_tokens_hero_max_translatey",
+      "community": 10,
+      "norm_label": "hero_max_translatey"
+    },
+    {
+      "label": "content_fade_multiplier",
+      "file_type": "code",
+      "source_file": "motion-prompts.json",
+      "source_location": "L240",
+      "id": "roxware_motion_prompts_design_tokens_content_fade_multiplier",
+      "community": 10,
+      "norm_label": "content_fade_multiplier"
+    },
+    {
+      "label": "content_shift_px",
+      "file_type": "code",
+      "source_file": "motion-prompts.json",
+      "source_location": "L241",
+      "id": "roxware_motion_prompts_design_tokens_content_shift_px",
+      "community": 10,
+      "norm_label": "content_shift_px"
+    },
+    {
+      "label": "overlay_gradient_dark",
+      "file_type": "code",
+      "source_file": "motion-prompts.json",
+      "source_location": "L242",
+      "id": "roxware_motion_prompts_design_tokens_overlay_gradient_dark",
+      "community": 10,
+      "norm_label": "overlay_gradient_dark"
+    },
+    {
+      "label": "overlay_gradient_light",
+      "file_type": "code",
+      "source_file": "motion-prompts.json",
+      "source_location": "L243",
+      "id": "roxware_motion_prompts_design_tokens_overlay_gradient_light",
+      "community": 10,
+      "norm_label": "overlay_gradient_light"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "id": "package_json",
+      "community": 9,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "id": "roxware_package_name",
+      "community": 9,
+      "norm_label": "name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "id": "roxware_package_version",
+      "community": 9,
+      "norm_label": "version"
+    },
+    {
+      "label": "description",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "id": "roxware_package_description",
+      "community": 9,
+      "norm_label": "description"
+    },
+    {
+      "label": "main",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "id": "roxware_package_main",
+      "community": 9,
+      "norm_label": "main"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "id": "roxware_package_scripts",
+      "community": 9,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "id": "roxware_package_scripts_dev",
+      "community": 9,
+      "norm_label": "dev"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "id": "roxware_package_scripts_start",
+      "community": 9,
+      "norm_label": "start"
+    },
+    {
+      "label": "serve",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "id": "roxware_package_scripts_serve",
+      "community": 9,
+      "norm_label": "serve"
+    },
+    {
+      "label": "keywords",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "id": "roxware_package_keywords",
+      "community": 9,
+      "norm_label": "keywords"
+    },
+    {
+      "label": "author",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "id": "roxware_package_author",
+      "community": 9,
+      "norm_label": "author"
+    },
+    {
+      "label": "license",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "id": "roxware_package_license",
+      "community": 9,
+      "norm_label": "license"
+    },
+    {
+      "label": "three-scenes.js",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L1",
+      "id": "three_scenes_js",
+      "community": 7,
+      "norm_label": "three-scenes.js"
+    },
+    {
+      "label": "isWebGLAvailable()",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L25",
+      "id": "roxware_three_scenes_iswebglavailable",
+      "community": 7,
+      "norm_label": "iswebglavailable()"
+    },
+    {
+      "label": "showStaticFallback()",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L37",
+      "id": "roxware_three_scenes_showstaticfallback",
+      "community": 7,
+      "norm_label": "showstaticfallback()"
+    },
+    {
+      "label": "createRenderer()",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L44",
+      "id": "roxware_three_scenes_createrenderer",
+      "community": 7,
+      "norm_label": "createrenderer()"
+    },
+    {
+      "label": "getOptimizedPixelRatio()",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L54",
+      "id": "roxware_three_scenes_getoptimizedpixelratio",
+      "community": 7,
+      "norm_label": "getoptimizedpixelratio()"
+    },
+    {
+      "label": "createTechCanvasTexture()",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L68",
+      "id": "roxware_three_scenes_createtechcanvastexture",
+      "community": 7,
+      "norm_label": "createtechcanvastexture()"
+    },
+    {
+      "label": "create3DReactAtom()",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L318",
+      "id": "roxware_three_scenes_create3dreactatom",
+      "community": 7,
+      "norm_label": "create3dreactatom()"
+    },
+    {
+      "label": "create3DTechToken()",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L359",
+      "id": "roxware_three_scenes_create3dtechtoken",
+      "community": 7,
+      "norm_label": "create3dtechtoken()"
+    },
+    {
+      "label": "createCyberDataNode()",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L396",
+      "id": "roxware_three_scenes_createcyberdatanode",
+      "community": 7,
+      "norm_label": "createcyberdatanode()"
+    },
+    {
+      "label": "create3DLaptopMesh()",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L431",
+      "id": "roxware_three_scenes_create3dlaptopmesh",
+      "community": 7,
+      "norm_label": "create3dlaptopmesh()"
+    },
+    {
+      "label": "create3DDesktopMonitorMesh()",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L574",
+      "id": "roxware_three_scenes_create3ddesktopmonitormesh",
+      "community": 7,
+      "norm_label": "create3ddesktopmonitormesh()"
+    },
+    {
+      "label": "create3DTechMouseMesh()",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L692",
+      "id": "roxware_three_scenes_create3dtechmousemesh",
+      "community": 7,
+      "norm_label": "create3dtechmousemesh()"
+    },
+    {
+      "label": "create3DGpuMesh()",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L740",
+      "id": "roxware_three_scenes_create3dgpumesh",
+      "community": 7,
+      "norm_label": "create3dgpumesh()"
+    },
+    {
+      "label": "create3DCpuMesh()",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L818",
+      "id": "roxware_three_scenes_create3dcpumesh",
+      "community": 7,
+      "norm_label": "create3dcpumesh()"
+    },
+    {
+      "label": "create3DCodeTagMesh()",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L916",
+      "id": "roxware_three_scenes_create3dcodetagmesh",
+      "community": 7,
+      "norm_label": "create3dcodetagmesh()"
+    },
+    {
+      "label": "create3DDatabaseMesh()",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L971",
+      "id": "roxware_three_scenes_create3ddatabasemesh",
+      "community": 7,
+      "norm_label": "create3ddatabasemesh()"
+    },
+    {
+      "label": "create3DServerBladeMesh()",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L995",
+      "id": "roxware_three_scenes_create3dserverblademesh",
+      "community": 7,
+      "norm_label": "create3dserverblademesh()"
+    },
+    {
+      "label": "initHeroScene()",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L1028",
+      "id": "roxware_three_scenes_initheroscene",
+      "community": 7,
+      "norm_label": "initheroscene()"
+    },
+    {
+      "label": "initStoryScene()",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L1729",
+      "id": "roxware_three_scenes_initstoryscene",
+      "community": 7,
+      "norm_label": "initstoryscene()"
+    },
+    {
+      "label": "PROJECT.md",
+      "file_type": "document",
+      "source_file": "PROJECT.md",
+      "source_location": "L1",
+      "id": "project_md",
+      "community": 0,
+      "norm_label": "project.md"
+    },
+    {
+      "label": "Roxware Consultancy \u2014 Website",
+      "file_type": "document",
+      "source_file": "PROJECT.md",
+      "source_location": "L1",
+      "id": "roxware_project_roxware_consultancy_website",
+      "community": 0,
+      "norm_label": "roxware consultancy \u2014 website"
+    },
+    {
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "PROJECT.md",
+      "source_location": "L3",
+      "id": "roxware_project_overview",
+      "community": 0,
+      "norm_label": "overview"
+    },
+    {
+      "label": "Purpose",
+      "file_type": "document",
+      "source_file": "PROJECT.md",
+      "source_location": "L6",
+      "id": "roxware_project_purpose",
+      "community": 0,
+      "norm_label": "purpose"
+    },
+    {
+      "label": "Tech Stack",
+      "file_type": "document",
+      "source_file": "PROJECT.md",
+      "source_location": "L9",
+      "id": "roxware_project_tech_stack",
+      "community": 0,
+      "norm_label": "tech stack"
+    },
+    {
+      "label": "Pages",
+      "file_type": "document",
+      "source_file": "PROJECT.md",
+      "source_location": "L19",
+      "id": "roxware_project_pages",
+      "community": 0,
+      "norm_label": "pages"
+    },
+    {
+      "label": "Installation & Development",
+      "file_type": "document",
+      "source_file": "PROJECT.md",
+      "source_location": "L28",
+      "id": "roxware_project_installation_development",
+      "community": 0,
+      "norm_label": "installation & development"
+    },
+    {
+      "label": "code:bash (# Install dependencies (just the serve tool))",
+      "file_type": "document",
+      "source_file": "PROJECT.md",
+      "source_location": "L29",
+      "id": "roxware_project_codeblock_1",
+      "community": 0,
+      "norm_label": "code:bash (# install dependencies (just the serve tool))"
+    },
+    {
+      "label": "Folder Structure",
+      "file_type": "document",
+      "source_file": "PROJECT.md",
+      "source_location": "L38",
+      "id": "roxware_project_folder_structure",
+      "community": 0,
+      "norm_label": "folder structure"
+    },
+    {
+      "label": "code:block2 (roxware/)",
+      "file_type": "document",
+      "source_file": "PROJECT.md",
+      "source_location": "L39",
+      "id": "roxware_project_codeblock_2",
+      "community": 0,
+      "norm_label": "code:block2 (roxware/)"
+    },
+    {
+      "label": "Architecture Overview",
+      "file_type": "document",
+      "source_file": "PROJECT.md",
+      "source_location": "L64",
+      "id": "roxware_project_architecture_overview",
+      "community": 0,
+      "norm_label": "architecture overview"
+    },
+    {
+      "label": "Photo-Frame Scroll-Driven Hero System",
+      "file_type": "document",
+      "source_file": "PROJECT.md",
+      "source_location": "L66",
+      "id": "roxware_project_photo_frame_scroll_driven_hero_system",
+      "community": 0,
+      "norm_label": "photo-frame scroll-driven hero system"
+    },
+    {
+      "label": "Design System (CSS Custom Properties)",
+      "file_type": "document",
+      "source_file": "PROJECT.md",
+      "source_location": "L74",
+      "id": "roxware_project_design_system_css_custom_properties",
+      "community": 0,
+      "norm_label": "design system (css custom properties)"
+    },
+    {
+      "label": "Multi-Page Navigation",
+      "file_type": "document",
+      "source_file": "PROJECT.md",
+      "source_location": "L79",
+      "id": "roxware_project_multi_page_navigation",
+      "community": 0,
+      "norm_label": "multi-page navigation"
+    },
+    {
+      "label": "Motion Prompts",
+      "file_type": "document",
+      "source_file": "PROJECT.md",
+      "source_location": "L84",
+      "id": "roxware_project_motion_prompts",
+      "community": 0,
+      "norm_label": "motion prompts"
+    },
+    {
+      "label": "Current Status",
+      "file_type": "document",
+      "source_file": "PROJECT.md",
+      "source_location": "L98",
+      "id": "roxware_project_current_status",
+      "community": 0,
+      "norm_label": "current status"
+    },
+    {
+      "label": "Roadmap",
+      "file_type": "document",
+      "source_file": "PROJECT.md",
+      "source_location": "L110",
+      "id": "roxware_project_roadmap",
+      "community": 0,
+      "norm_label": "roadmap"
+    },
+    {
+      "label": "graphify.md",
+      "file_type": "document",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L1",
+      "id": "agents_rules_graphify_md",
+      "community": 1,
+      "norm_label": "graphify.md"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L6",
+      "id": "rules_graphify_graphify",
+      "community": 1,
+      "norm_label": "graphify"
+    },
+    {
+      "label": "graphify.md",
+      "file_type": "document",
+      "source_file": ".agents/workflows/graphify.md",
+      "source_location": "L1",
+      "id": "agents_workflows_graphify_md",
+      "community": 4,
+      "norm_label": "graphify.md"
+    },
+    {
+      "label": "Workflow: graphify",
+      "file_type": "document",
+      "source_file": ".agents/workflows/graphify.md",
+      "source_location": "L6",
+      "id": "workflows_graphify_workflow_graphify",
+      "community": 4,
+      "norm_label": "workflow: graphify"
+    },
+    {
+      "label": "data.md",
+      "file_type": "document",
+      "source_file": ".kilo/agents/data.md",
+      "source_location": "L1",
+      "id": "kilo_agents_data_md",
+      "community": 8,
+      "norm_label": "data.md"
+    },
+    {
+      "label": "navLinks",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L533",
+      "community": 5,
+      "norm_label": "navlinks",
+      "id": "roxware_app_navlinks"
+    },
+    {
+      "label": "href",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L536",
+      "community": 5,
+      "norm_label": "href",
+      "id": "roxware_app_href"
+    },
+    {
+      "label": "headerCta",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L80",
+      "community": 5,
+      "norm_label": "headercta",
+      "id": "roxware_app_headercta"
+    },
+    {
+      "label": "contactSection",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L81",
+      "community": 5,
+      "norm_label": "contactsection",
+      "id": "roxware_app_contactsection"
+    },
+    {
+      "label": "contactObserver",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L95",
+      "community": 5,
+      "norm_label": "contactobserver",
+      "id": "roxware_app_contactobserver"
+    },
+    {
+      "label": "projectSelect",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L414",
+      "community": 5,
+      "norm_label": "projectselect",
+      "id": "roxware_app_projectselect"
+    },
+    {
+      "label": "hasOption",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L424",
+      "community": 5,
+      "norm_label": "hasoption",
+      "id": "roxware_app_hasoption"
+    },
+    {
+      "label": "contactSec",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L433",
+      "community": 5,
+      "norm_label": "contactsec",
+      "id": "roxware_app_contactsec"
+    },
+    {
+      "label": "formCard",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L437",
+      "community": 5,
+      "norm_label": "formcard",
+      "id": "roxware_app_formcard"
+    },
+    {
+      "label": "sections",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L535",
+      "community": 5,
+      "norm_label": "sections",
+      "id": "roxware_app_sections"
+    },
+    {
+      "label": "observer",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L539",
+      "community": 5,
+      "norm_label": "observer",
+      "id": "roxware_app_observer"
+    },
+    {
+      "label": "Project: Roxware Consultancy Landing Page & Web App",
+      "file_type": "document",
+      "source_file": "PROJECT.md",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "project: roxware consultancy landing page & web app",
+      "id": "roxware_project_project_roxware_consultancy_landing_page_web_app"
+    },
+    {
+      "label": "1. Project Overview",
+      "file_type": "document",
+      "source_file": "PROJECT.md",
+      "source_location": "L3",
+      "community": 0,
+      "norm_label": "1. project overview",
+      "id": "roxware_project_1_project_overview"
+    },
+    {
+      "label": "2. Purpose",
+      "file_type": "document",
+      "source_file": "PROJECT.md",
+      "source_location": "L6",
+      "community": 0,
+      "norm_label": "2. purpose",
+      "id": "roxware_project_2_purpose"
+    },
+    {
+      "label": "3. Tech Stack",
+      "file_type": "document",
+      "source_file": "PROJECT.md",
+      "source_location": "L13",
+      "community": 0,
+      "norm_label": "3. tech stack",
+      "id": "roxware_project_3_tech_stack"
+    },
+    {
+      "label": "4. Installation & Development Setup",
+      "file_type": "document",
+      "source_file": "PROJECT.md",
+      "source_location": "L21",
+      "community": 0,
+      "norm_label": "4. installation & development setup",
+      "id": "roxware_project_4_installation_development_setup"
+    },
+    {
+      "label": "5. Folder Structure",
+      "file_type": "document",
+      "source_file": "PROJECT.md",
+      "source_location": "L33",
+      "community": 0,
+      "norm_label": "5. folder structure",
+      "id": "roxware_project_5_folder_structure"
+    },
+    {
+      "label": "6. Architecture & Design Tokens Overview",
+      "file_type": "document",
+      "source_file": "PROJECT.md",
+      "source_location": "L51",
+      "community": 0,
+      "norm_label": "6. architecture & design tokens overview",
+      "id": "roxware_project_6_architecture_design_tokens_overview"
+    },
+    {
+      "label": "7. Roadmap & Milestones",
+      "file_type": "document",
+      "source_file": "PROJECT.md",
+      "source_location": "L73",
+      "community": 0,
+      "norm_label": "7. roadmap & milestones",
+      "id": "roxware_project_7_roadmap_milestones"
+    },
+    {
+      "label": "8. Current Status",
+      "file_type": "document",
+      "source_file": "PROJECT.md",
+      "source_location": "L92",
+      "community": 0,
+      "norm_label": "8. current status",
+      "id": "roxware_project_8_current_status"
+    },
+    {
+      "label": "createCpuTexture()",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L396",
+      "community": 7,
+      "norm_label": "createcputexture()",
+      "id": "roxware_three_scenes_createcputexture"
+    },
+    {
+      "label": "createCodeWindowTexture()",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L483",
+      "community": 7,
+      "norm_label": "createcodewindowtexture()",
+      "id": "roxware_three_scenes_createcodewindowtexture"
+    },
+    {
+      "label": "createCpuMicroprocessorMesh()",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L564",
+      "community": 7,
+      "norm_label": "createcpumicroprocessormesh()",
+      "id": "roxware_three_scenes_createcpumicroprocessormesh"
+    },
+    {
+      "label": "createCodeWindowMesh()",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L650",
+      "community": 7,
+      "norm_label": "createcodewindowmesh()",
+      "id": "roxware_three_scenes_createcodewindowmesh"
+    },
+    {
+      "label": "createDatabaseClusterMesh()",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L683",
+      "community": 7,
+      "norm_label": "createdatabaseclustermesh()",
+      "id": "roxware_three_scenes_createdatabaseclustermesh"
+    },
+    {
+      "label": "createServerBladeMesh()",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L725",
+      "community": 7,
+      "norm_label": "createserverblademesh()",
+      "id": "roxware_three_scenes_createserverblademesh"
+    },
+    {
+      "label": "createNeuralCoreMesh()",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L764",
+      "community": 7,
+      "norm_label": "createneuralcoremesh()",
+      "id": "roxware_three_scenes_createneuralcoremesh"
+    },
+    {
+      "label": "createSecurityNodeMesh()",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L790",
+      "community": 7,
+      "norm_label": "createsecuritynodemesh()",
+      "id": "roxware_three_scenes_createsecuritynodemesh"
+    },
+    {
+      "label": "createCrystalGemGeometry()",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L360",
+      "community": 7,
+      "norm_label": "createcrystalgemgeometry()",
+      "id": "roxware_three_scenes_createcrystalgemgeometry"
+    },
+    {
+      "label": "revealElements",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L104",
+      "community": 5,
+      "norm_label": "revealelements",
+      "id": "roxware_app_revealelements"
+    },
+    {
+      "label": "createFacetedRockGeometry()",
+      "file_type": "code",
+      "source_file": "three-scenes.js",
+      "source_location": "L32",
+      "community": 7,
+      "norm_label": "createfacetedrockgeometry()",
+      "id": "roxware_three_scenes_createfacetedrockgeometry"
+    },
+    {
+      "label": "handleScroll()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L9",
+      "community": 5,
+      "norm_label": "handlescroll()",
+      "id": "roxware_app_handlescroll"
+    },
+    {
+      "label": "summaryOutput",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L113",
+      "community": 5,
+      "norm_label": "summaryoutput",
+      "id": "roxware_app_summaryoutput"
+    },
+    {
+      "label": "plannerOptions",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L114",
+      "community": 5,
+      "norm_label": "planneroptions",
+      "id": "roxware_app_planneroptions"
+    },
+    {
+      "label": "sendPlanBtn",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L115",
+      "community": 5,
+      "norm_label": "sendplanbtn",
+      "id": "roxware_app_sendplanbtn"
+    },
+    {
+      "label": "updatePlannerSummary()",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L117",
+      "community": 5,
+      "norm_label": "updateplannersummary()",
+      "id": "roxware_app_updateplannersummary"
+    },
+    {
+      "label": "input",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L140",
+      "community": 5,
+      "norm_label": "input",
+      "id": "roxware_app_input"
+    },
+    {
+      "label": "projectTypeSelect",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L161",
+      "community": 5,
+      "norm_label": "projecttypeselect",
+      "id": "roxware_app_projecttypeselect"
+    },
+    {
+      "label": "formFeedback",
+      "file_type": "code",
+      "source_file": "app.js",
+      "source_location": "L201",
+      "community": 5,
+      "norm_label": "formfeedback",
+      "id": "roxware_app_formfeedback"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_themetogglebtn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_mobilethemetogglebtn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_themestorage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_getinitialtheme"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_applytheme"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_initialtheme"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_toggletheme"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_header"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_onscroll"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_mobiletoggle"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_mobiledrawer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_mobilelinks"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L113",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_setdraweropen"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L136",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_focusables"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L151",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_photoherocontainer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L152",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_photoheroimg"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L153",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_photoherocontent"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L86",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_rect"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L162",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_progress"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L166",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_herotick"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L167",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_herorevealels"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L168",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_showheroreveals"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L179",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_revealels"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_revealobserver"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L213",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_bentocards"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_tiltcards"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L106",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_slides"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L107",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_dots"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L110",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_sliderwrap"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L112",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_showslide"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L122",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_nextslide"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L127",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_startslidetimer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L133",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_stopslidetimer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L63",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_plannerstate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_plannerconfig"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L183",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_outputtextel"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L184",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_plannercards"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L185",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_btnsendplanneridea"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L187",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_updateplannercopy"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L364",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_isselected"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L368",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_selectplannercard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L392",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_groupcards"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L393",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_i"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L424",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_params"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L200",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_contactform"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L254",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_formsuccess"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L441",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_urlparams"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L442",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_plannerdata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L444",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_plannerparams"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L170",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_messagefield"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L458",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_formerror"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L469",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_showformerror"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L475",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_clearformerror"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L485",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_nameel"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L486",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_emailel"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L487",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_messageel"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L207",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_name"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L208",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_email"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L210",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_message"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L225",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_submitbtn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L518",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_heading"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L532",
+      "weight": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_rawpath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L533",
+      "weight": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_pathsegment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L536",
+      "weight": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_allnavlinks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L540",
+      "weight": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_hrefclean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L541",
+      "weight": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_hrefsegment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L247",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_navlinks"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L536",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_href"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_headercta"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L177",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_contactsection"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_contactobserver"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L217",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_projectselect"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L424",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_hasoption"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L233",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_contactsec"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L182",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_formcard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L246",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_sections"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L250",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_observer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_revealelements"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_handlescroll"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L113",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_summaryoutput"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L114",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_planneroptions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L115",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_sendplanbtn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L117",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_updateplannersummary"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L145",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_input"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L161",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_projecttypeselect"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L201",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_js",
+      "target": "roxware_app_formfeedback"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_app_toggletheme",
+      "target": "roxware_app_applytheme"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L124",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_app_nextslide",
+      "target": "roxware_app_showslide"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app.js",
+      "source_location": "L386",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_app_selectplannercard",
+      "target": "roxware_app_updateplannercopy"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "motion-prompts.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "motion_prompts_json",
+      "target": "roxware_motion_prompts_project"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "motion-prompts.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "motion_prompts_json",
+      "target": "roxware_motion_prompts_version"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "motion-prompts.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "motion_prompts_json",
+      "target": "roxware_motion_prompts_notes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "motion-prompts.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "motion_prompts_json",
+      "target": "roxware_motion_prompts_pages"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "motion-prompts.json",
+      "source_location": "L227",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "motion_prompts_json",
+      "target": "roxware_motion_prompts_global_scroll_config"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "motion-prompts.json",
+      "source_location": "L236",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "motion_prompts_json",
+      "target": "roxware_motion_prompts_design_tokens"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "motion-prompts.json",
+      "source_location": "L228",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_motion_prompts_global_scroll_config",
+      "target": "roxware_motion_prompts_global_scroll_config_scroll_engine"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "motion-prompts.json",
+      "source_location": "L229",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_motion_prompts_global_scroll_config",
+      "target": "roxware_motion_prompts_global_scroll_config_lerp_factor"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "motion-prompts.json",
+      "source_location": "L230",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_motion_prompts_global_scroll_config",
+      "target": "roxware_motion_prompts_global_scroll_config_parallax_technique"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "motion-prompts.json",
+      "source_location": "L231",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_motion_prompts_global_scroll_config",
+      "target": "roxware_motion_prompts_global_scroll_config_fallback"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "motion-prompts.json",
+      "source_location": "L232",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_motion_prompts_global_scroll_config",
+      "target": "roxware_motion_prompts_global_scroll_config_frame_extraction_format"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "motion-prompts.json",
+      "source_location": "L233",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_motion_prompts_global_scroll_config",
+      "target": "roxware_motion_prompts_global_scroll_config_canvas_scrub_method"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "motion-prompts.json",
+      "source_location": "L237",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_motion_prompts_design_tokens",
+      "target": "roxware_motion_prompts_design_tokens_hero_initial_scale"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "motion-prompts.json",
+      "source_location": "L238",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_motion_prompts_design_tokens",
+      "target": "roxware_motion_prompts_design_tokens_hero_final_scale"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "motion-prompts.json",
+      "source_location": "L239",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_motion_prompts_design_tokens",
+      "target": "roxware_motion_prompts_design_tokens_hero_max_translatey"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "motion-prompts.json",
+      "source_location": "L240",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_motion_prompts_design_tokens",
+      "target": "roxware_motion_prompts_design_tokens_content_fade_multiplier"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "motion-prompts.json",
+      "source_location": "L241",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_motion_prompts_design_tokens",
+      "target": "roxware_motion_prompts_design_tokens_content_shift_px"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "motion-prompts.json",
+      "source_location": "L242",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_motion_prompts_design_tokens",
+      "target": "roxware_motion_prompts_design_tokens_overlay_gradient_dark"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "motion-prompts.json",
+      "source_location": "L243",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_motion_prompts_design_tokens",
+      "target": "roxware_motion_prompts_design_tokens_overlay_gradient_light"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "roxware_package_name"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "roxware_package_version"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "roxware_package_description"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "roxware_package_main"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "roxware_package_scripts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "roxware_package_keywords"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "roxware_package_author"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "roxware_package_license"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_package_scripts",
+      "target": "roxware_package_scripts_dev"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_package_scripts",
+      "target": "roxware_package_scripts_start"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_package_scripts",
+      "target": "roxware_package_scripts_serve"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "three_scenes_js",
+      "target": "roxware_three_scenes_iswebglavailable"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "three_scenes_js",
+      "target": "roxware_three_scenes_showstaticfallback"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "three_scenes_js",
+      "target": "roxware_three_scenes_createrenderer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "three_scenes_js",
+      "target": "roxware_three_scenes_getoptimizedpixelratio"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "three_scenes_js",
+      "target": "roxware_three_scenes_createtechcanvastexture"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L282",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "three_scenes_js",
+      "target": "roxware_three_scenes_create3dreactatom"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L323",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "three_scenes_js",
+      "target": "roxware_three_scenes_create3dtechtoken"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L365",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "three_scenes_js",
+      "target": "roxware_three_scenes_createcyberdatanode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L403",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "three_scenes_js",
+      "target": "roxware_three_scenes_create3dlaptopmesh"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L536",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "three_scenes_js",
+      "target": "roxware_three_scenes_create3ddesktopmonitormesh"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L649",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "three_scenes_js",
+      "target": "roxware_three_scenes_create3dtechmousemesh"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L697",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "three_scenes_js",
+      "target": "roxware_three_scenes_create3dgpumesh"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L775",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "three_scenes_js",
+      "target": "roxware_three_scenes_create3dcpumesh"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L873",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "three_scenes_js",
+      "target": "roxware_three_scenes_create3dcodetagmesh"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L928",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "three_scenes_js",
+      "target": "roxware_three_scenes_create3ddatabasemesh"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L952",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "three_scenes_js",
+      "target": "roxware_three_scenes_create3dserverblademesh"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "three_scenes_js",
+      "target": "roxware_three_scenes_initheroscene"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L276",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "three_scenes_js",
+      "target": "roxware_three_scenes_initstoryscene"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L396",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "three_scenes_js",
+      "target": "roxware_three_scenes_createcputexture"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L483",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "three_scenes_js",
+      "target": "roxware_three_scenes_createcodewindowtexture"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L564",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "three_scenes_js",
+      "target": "roxware_three_scenes_createcpumicroprocessormesh"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L650",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "three_scenes_js",
+      "target": "roxware_three_scenes_createcodewindowmesh"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L683",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "three_scenes_js",
+      "target": "roxware_three_scenes_createdatabaseclustermesh"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L725",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "three_scenes_js",
+      "target": "roxware_three_scenes_createserverblademesh"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L764",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "three_scenes_js",
+      "target": "roxware_three_scenes_createneuralcoremesh"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L790",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "three_scenes_js",
+      "target": "roxware_three_scenes_createsecuritynodemesh"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L360",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "three_scenes_js",
+      "target": "roxware_three_scenes_createcrystalgemgeometry"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "three_scenes_js",
+      "target": "roxware_three_scenes_createfacetedrockgeometry"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L1045",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_three_scenes_initheroscene",
+      "target": "roxware_three_scenes_showstaticfallback"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L1040",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_three_scenes_initheroscene",
+      "target": "roxware_three_scenes_createrenderer"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L1051",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_three_scenes_initheroscene",
+      "target": "roxware_three_scenes_getoptimizedpixelratio"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L491",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_three_scenes_initheroscene",
+      "target": "roxware_three_scenes_createtechcanvastexture"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L501",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_three_scenes_initheroscene",
+      "target": "roxware_three_scenes_create3dreactatom"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L1350",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_three_scenes_initstoryscene",
+      "target": "roxware_three_scenes_create3dreactatom"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L502",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_three_scenes_initheroscene",
+      "target": "roxware_three_scenes_create3dtechtoken"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L992",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_three_scenes_initheroscene",
+      "target": "roxware_three_scenes_createcyberdatanode"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L1344",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_three_scenes_initstoryscene",
+      "target": "roxware_three_scenes_create3dlaptopmesh"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L1345",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_three_scenes_initstoryscene",
+      "target": "roxware_three_scenes_create3ddesktopmonitormesh"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L1346",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_three_scenes_initstoryscene",
+      "target": "roxware_three_scenes_create3dtechmousemesh"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L1347",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_three_scenes_initstoryscene",
+      "target": "roxware_three_scenes_create3dgpumesh"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L1348",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_three_scenes_initstoryscene",
+      "target": "roxware_three_scenes_create3dcpumesh"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L1349",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_three_scenes_initstoryscene",
+      "target": "roxware_three_scenes_create3dcodetagmesh"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L1351",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_three_scenes_initstoryscene",
+      "target": "roxware_three_scenes_create3ddatabasemesh"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L1352",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_three_scenes_initstoryscene",
+      "target": "roxware_three_scenes_create3dserverblademesh"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L533",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_three_scenes_initheroscene",
+      "target": "roxware_three_scenes_createcrystalgemgeometry"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L155",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_three_scenes_initheroscene",
+      "target": "roxware_three_scenes_createfacetedrockgeometry"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L1236",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_three_scenes_initstoryscene",
+      "target": "roxware_three_scenes_createcputexture"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L1295",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_three_scenes_initstoryscene",
+      "target": "roxware_three_scenes_createcodewindowtexture"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L1237",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_three_scenes_initstoryscene",
+      "target": "roxware_three_scenes_createcpumicroprocessormesh"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L779",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_three_scenes_initstoryscene",
+      "target": "roxware_three_scenes_createcrystalgemgeometry"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "three-scenes.js",
+      "source_location": "L333",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_three_scenes_initstoryscene",
+      "target": "roxware_three_scenes_createfacetedrockgeometry"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "project_md",
+      "target": "roxware_project_roxware_consultancy_website"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "project_md",
+      "target": "roxware_project_project_roxware_consultancy_landing_page_web_app"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_project_roxware_consultancy_website",
+      "target": "roxware_project_overview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_project_roxware_consultancy_website",
+      "target": "roxware_project_purpose"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_project_roxware_consultancy_website",
+      "target": "roxware_project_tech_stack"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_project_roxware_consultancy_website",
+      "target": "roxware_project_pages"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_project_roxware_consultancy_website",
+      "target": "roxware_project_installation_development"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_project_roxware_consultancy_website",
+      "target": "roxware_project_folder_structure"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_project_roxware_consultancy_website",
+      "target": "roxware_project_architecture_overview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT.md",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_project_roxware_consultancy_website",
+      "target": "roxware_project_motion_prompts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT.md",
+      "source_location": "L98",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_project_roxware_consultancy_website",
+      "target": "roxware_project_current_status"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT.md",
+      "source_location": "L110",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_project_roxware_consultancy_website",
+      "target": "roxware_project_roadmap"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_project_installation_development",
+      "target": "roxware_project_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_project_4_installation_development_setup",
+      "target": "roxware_project_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_project_folder_structure",
+      "target": "roxware_project_codeblock_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_project_5_folder_structure",
+      "target": "roxware_project_codeblock_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_project_architecture_overview",
+      "target": "roxware_project_photo_frame_scroll_driven_hero_system"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_project_architecture_overview",
+      "target": "roxware_project_design_system_css_custom_properties"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_project_architecture_overview",
+      "target": "roxware_project_multi_page_navigation"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_rules_graphify_md",
+      "target": "rules_graphify_graphify"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/workflows/graphify.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_workflows_graphify_md",
+      "target": "workflows_graphify_workflow_graphify"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_project_project_roxware_consultancy_landing_page_web_app",
+      "target": "roxware_project_1_project_overview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_project_project_roxware_consultancy_landing_page_web_app",
+      "target": "roxware_project_2_purpose"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_project_project_roxware_consultancy_landing_page_web_app",
+      "target": "roxware_project_3_tech_stack"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_project_project_roxware_consultancy_landing_page_web_app",
+      "target": "roxware_project_4_installation_development_setup"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_project_project_roxware_consultancy_landing_page_web_app",
+      "target": "roxware_project_5_folder_structure"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_project_project_roxware_consultancy_landing_page_web_app",
+      "target": "roxware_project_6_architecture_design_tokens_overview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT.md",
+      "source_location": "L72",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_project_project_roxware_consultancy_landing_page_web_app",
+      "target": "roxware_project_7_roadmap_milestones"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PROJECT.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "roxware_project_project_roxware_consultancy_landing_page_web_app",
+      "target": "roxware_project_8_current_status"
+    }
+  ],
+  "hyperedges": []
+}

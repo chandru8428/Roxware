@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+.dev-server.log
+
+# System & OS Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Local agent caches
+.kilo/
+graphify-out/cache/

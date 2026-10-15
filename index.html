@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roxware Consultancy | High-Performance Web Development & Creative Tech Studio</title>
+  <meta name="description" content="Roxware Consultancy builds fast, intelligent web experiences, custom web apps, digital marketing campaigns, SEO/GEO optimization, and resilient IT services for modern businesses worldwide.">
+  <meta name="keywords" content="Roxware, Roxware Consultancy, web development studio, Three.js agency, custom web apps, digital marketing, SEO GEO optimization, Tamil Nadu IT company">
+  <meta name="theme-color" content="#0A0E14">
+  <meta name="author" content="Roxware Consultancy">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Roxware Consultancy | Creative Web Development & Digital Product Studio">
+  <meta property="og:description" content="Award-level web development, interactive 3D experiences, and full-stack digital growth.">
+  <meta property="og:image" content="public/hero_home.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Roxware Consultancy | Creative Web Development & Digital Product Studio">
+  <meta name="twitter:description" content="Award-level web development, interactive 3D experiences, and full-stack digital growth.">
+  <meta name="twitter:image" content="public/hero_home.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="public/logo.jpeg">
+
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Pre-paint theme boot -->
+  <script>
+    (function () {
+      var t = null;
+      try {
+        t = localStorage.getItem('roxware_theme') || localStorage.getItem('rocks_theme');
+      } catch (e) { }
+      if (t !== 'light' && t !== 'dark') {
+        t = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+      }
+      document.documentElement.setAttribute('data-theme', t);
+      var m = document.querySelector('meta[name="theme-color"]');
+      if (m) m.content = t === 'light' ? '#F8F7F3' : '#0A0E14';
+    })();
+  </script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css?v=multipage_v1">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <noscript><div style="padding:1rem;text-align:center;background:#C87431;color:#fff;font-weight:600;">Roxware needs JavaScript for 3D, planner, and contact flow. Content remains readable below.</div></noscript>
+
+  <!-- ==========================================================================
+       1. HEADER & NAVIGATION (Multi-Page)
+       ========================================================================== -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-link" aria-label="Roxware Consultancy Home">
+        <img src="public/logo.jpeg" alt="Roxware Consultancy Logo" class="brand-logo-img" width="40" height="40">
+        <div>
+          <span class="brand-title">Rox<span>ware</span></span>
+          <span class="brand-subtitle">Consultancy</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-desktop" role="navigation" aria-label="Primary Navigation">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Dark and Light Mode Toggle -->
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle dark and light theme" title="Toggle theme">
+          <svg class="theme-icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="theme-icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <a href="contact.html" class="btn btn-primary btn-sm header-cta-btn">Start a project</a>
+
+        <!-- Mobile Nav Toggle -->
+        <button class="mobile-nav-toggle" aria-expanded="false" aria-label="Toggle navigation menu" id="mobileNavToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-nav-drawer" id="mobileNavDrawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+      <div style="display: flex; justify-content: space-between; align-items: center; padding-bottom: 0.5rem; border-bottom: 1px solid var(--color-border);">
+        <span style="font-weight: 600; font-size: 0.9rem; color: var(--color-text-muted);">Theme Mode</span>
+        <button class="btn btn-secondary btn-sm" id="mobileThemeToggleBtn" style="padding: 0.35rem 0.85rem; font-size: 0.8rem;">
+          Toggle Theme
+        </button>
+      </div>
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="services.html" class="nav-link">Services</a>
+      <a href="about.html" class="nav-link">About Us</a>
+      <a href="blog.html" class="nav-link">Blog</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+      <a href="contact.html" class="btn btn-primary btn-lg" style="margin-top: 1rem;">Start a Project</a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- ==========================================================================
+         2. PHOTO-FRAME SCROLL-DRIVEN HERO
+         ========================================================================== -->
+    <section class="photo-hero-scroll-container" id="hero" aria-label="Hero Section">
+      <div class="photo-hero-sticky" id="photoHeroSticky">
+        <!-- Photo frame canvas for scroll-driven motion -->
+        <div class="photo-hero-frame" aria-hidden="true">
+          <img src="public/hero_home.jpg" alt="Roxware tech studio workspace with warm copper lighting" class="photo-hero-img" id="heroPhotoImg" width="1920" height="1080" loading="eager" decoding="async">
+          <div class="photo-hero-overlay"></div>
+        </div>
+
+        <div class="container photo-hero-content reveal">
+          <h1 class="hero-headline">
+            Roxware builds fast, <span class="text-copper">intelligent web</span> experiences.
+          </h1>
+
+          <p class="hero-subhead">
+            From modern web development to digital growth funnels, search visibility, and resilient IT infrastructure -- all in one creative studio.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="contact.html" class="btn btn-primary btn-lg">Schedule a discovery call</a>
+            <a href="services.html" class="btn btn-secondary btn-lg">Explore our services</a>
+          </div>
+
+          <!-- Premium Stats Row -->
+          <div class="hero-stats-row" aria-label="Studio statistics">
+            <div class="hero-stat-item">
+              <span class="hero-stat-value">&mdash;</span>
+              <span class="hero-stat-label">Projects Delivered</span>
+            </div>
+            <div class="hero-stat-divider"></div>
+            <div class="hero-stat-item">
+              <span class="hero-stat-value">&mdash;</span>
+              <span class="hero-stat-label">Uptime SLA</span>
+            </div>
+            <div class="hero-stat-divider"></div>
+            <div class="hero-stat-item">
+              <span class="hero-stat-value">&mdash;</span>
+              <span class="hero-stat-label">Response Time</span>
+            </div>
+          </div>
+
+          <div class="hero-trust">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              <path d="m9 12 2 2 4-4"/>
+            </svg>
+            <span>Serving global clients from Tamil Nadu, India</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         3. SERVICES OVERVIEW STRIP
+         ========================================================================== -->
+    <section class="services-strip" aria-label="Services Snapshot">
+      <div class="container strip-inner">
+        <span class="strip-label">Studio Capabilities</span>
+        <div class="strip-chips-wrap">
+          <a href="services.html" class="service-pill-chip">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            <span>Web Engineering</span>
+          </a>
+          <a href="services.html" class="service-pill-chip">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><line x1="12" x2="12.01" y1="18" y2="18"/></svg>
+            <span>Custom Web Apps</span>
+          </a>
+          <a href="services.html" class="service-pill-chip">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 11 18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg>
+            <span>Growth & Ads</span>
+          </a>
+          <a href="services.html" class="service-pill-chip">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m4.93 4.93 4.24 4.24"/><path d="m14.83 9.17 4.24-4.24"/></svg>
+            <span>SEO & GEO Search</span>
+          </a>
+          <a href="services.html" class="service-pill-chip">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="8" x="2" y="2" rx="2" ry="2"/><rect width="20" height="8" x="2" y="14" rx="2" ry="2"/></svg>
+            <span>Managed IT & Cloud</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         4. CAPABILITIES BENTO MATRIX
+         ========================================================================== -->
+    <section class="section" id="services-preview" aria-label="Studio Capabilities">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">End-to-end digital engineering<br>and growth.</h2>
+          <p class="section-desc">
+            We combine full-stack application development, bespoke 3D motion, search intelligence, and resilient infrastructure under one studio roof.
+          </p>
+        </div>
+
+        <div class="bento-matrix">
+          <article class="bento-cell span-8">
+            <div class="bento-header">
+              <h3>Full-Stack Web & App Engineering</h3>
+              <p>From high-performance corporate web presences to scalable SaaS architectures and progressive web applications.</p>
+            </div>
+            <div class="bento-tags">
+              <span class="bento-tag">React / Next.js</span>
+              <span class="bento-tag">Node.js</span>
+              <span class="bento-tag">Python</span>
+              <span class="bento-tag">Three.js WebGL</span>
+              <span class="bento-tag">TypeScript</span>
+              <span class="bento-tag">PWA</span>
+            </div>
+          </article>
+
+          <article class="bento-cell span-4">
+            <div class="bento-header">
+              <h3>SEO & GEO Visibility Engine</h3>
+              <p>Technical search dominance and location-aware radius targeting to capture high-intent buyers.</p>
+            </div>
+            <div class="bento-tags">
+              <span class="bento-tag">Technical SEO</span>
+              <span class="bento-tag">Local GEO</span>
+              <span class="bento-tag">Rich Snippets</span>
+            </div>
+          </article>
+
+          <article class="bento-cell span-4">
+            <div class="bento-header">
+              <h3>High-Intent Growth & Ads</h3>
+              <p>Precision search and paid social campaigns aligned with dedicated conversion landing pages.</p>
+            </div>
+            <div class="bento-tags">
+              <span class="bento-tag">Google Search Ads</span>
+              <span class="bento-tag">Meta & LinkedIn</span>
+              <span class="bento-tag">A/B Testing</span>
+            </div>
+          </article>
+
+          <article class="bento-cell span-8">
+            <div class="bento-header">
+              <h3>Cloud Infrastructure & 24/7 IT Support</h3>
+              <p>AWS, Cloudflare edge networks, and containerized Docker environments designed for zero-downtime deployments.</p>
+            </div>
+            <div class="bento-tags">
+              <span class="bento-tag">AWS & Cloudflare Edge</span>
+              <span class="bento-tag">Docker Containers</span>
+              <span class="bento-tag">Security Hardening</span>
+              <span class="bento-tag">24/7 Health Oversight</span>
+            </div>
+          </article>
+        </div>
+
+        <div style="text-align: center; margin-top: 2.5rem;">
+          <a href="services.html" class="btn btn-secondary btn-lg">View all services</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         5. CASE STUDIES / WORK SECTION
+         ========================================================================== -->
+    <section class="section" id="work" aria-label="Selected Projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Projects we've elevated</h2>
+          <p class="section-desc">
+            Explore recent digital solutions where Roxware re-engineered speed, conversion, and visual prestige.
+          </p>
+        </div>
+
+        <div class="case-studies-grid">
+          <article class="case-card">
+            <div class="case-media-frame">
+              <img src="public/case_saas.jpg" alt="Aether Analytics SaaS Real-Time Dashboard UI Mockup" class="case-media-img" loading="lazy" decoding="async" onerror="this.style.display='none'">
+            </div>
+            <div class="case-body">
+              <span class="case-category">B2B SaaS . Analytics</span>
+              <h3>Aether Real-Time Intelligence Platform</h3>
+              <p>Re-engineered legacy monolithic code into a lightweight reactive web app with automated telemetry.</p>
+              <div class="case-deliverables">
+                <span class="case-deliverable-chip">Next.js SSR</span>
+                <span class="case-deliverable-chip">WebSockets Engine</span>
+                <span class="case-deliverable-chip">D3 Telemetry</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="case-card">
+            <div class="case-media-frame">
+              <img src="public/case_retail.jpg" alt="Aurum Luxury Retail E-Commerce Desktop UI Mockup" class="case-media-img" loading="lazy" decoding="async" onerror="this.style.display='none'">
+            </div>
+            <div class="case-body">
+              <span class="case-category">Luxury Retail . E-Commerce</span>
+              <h3>Aurum Omnichannel Brand Showcase</h3>
+              <p>Complete redesign and local GEO search optimization for an international retail storefront.</p>
+              <div class="case-deliverables">
+                <span class="case-deliverable-chip">Shopify Headless</span>
+                <span class="case-deliverable-chip">GEO Schema Markup</span>
+                <span class="case-deliverable-chip">Edge CDN Caching</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="case-card">
+            <div class="case-media-frame">
+              <img src="public/case_creator.jpg" alt="Morphix Spatial 3D Creator Studio UI Mockup" class="case-media-img" loading="lazy" decoding="async" onerror="this.style.display='none'">
+            </div>
+            <div class="case-body">
+              <span class="case-category">Media Studio . 3D Web</span>
+              <h3>Morphix Spatial Creative Agency</h3>
+              <p>Award-winning digital portfolio featuring custom WebGL shaders and responsive typography.</p>
+              <div class="case-deliverables">
+                <span class="case-deliverable-chip">Three.js Shaders</span>
+                <span class="case-deliverable-chip">PWA Architecture</span>
+                <span class="case-deliverable-chip">Zero Layout Shift</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         6. TESTIMONIALS
+         ========================================================================== -->
+    <section class="section section-dark-elevated" aria-label="Testimonials">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title">Clients on Roxware</h2>
+          <p class="section-desc">
+            What founders and technical directors say about partnering with our digital team.
+          </p>
+        </div>
+
+        <div class="testimonials-slider-wrap">
+          <div class="testimonial-track">
+            <div class="testimonial-slide active">
+              <p class="testimonial-quote">
+                "Roxware re-architected our telemetry dashboard from a legacy monolith into a clean, responsive single-page application with instant state hydration."
+              </p>
+              <div class="testimonial-author-row">
+                <div class="author-avatar">AK</div>
+                <div class="author-details">
+                  <strong>Anand Krishnamurthy</strong>
+                  <span>Founder & CEO, Kovai Analytics (Tamil Nadu)</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-slide">
+              <p class="testimonial-quote">
+                "Finding an engineering studio that bridges bespoke 3D interaction design with strict Core Web Vitals compliance is rare. Roxware delivered both."
+              </p>
+              <div class="testimonial-author-row">
+                <div class="author-avatar">SR</div>
+                <div class="author-details">
+                  <strong>Sarah Reynolds</strong>
+                  <span>Operations Director, Apex Retail Brands</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-slide">
+              <p class="testimonial-quote">
+                "Communication is direct, timelines are honored, and the code craftsmanship is disciplined. Roxware operates like an elite dedicated engineering department."
+              </p>
+              <div class="testimonial-author-row">
+                <div class="author-avatar">VM</div>
+                <div class="author-details">
+                  <strong>Vijay Mohan</strong>
+                  <span>Chief Product Officer, Verve Interactive</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slider-controls" role="group" aria-label="Testimonial navigation">
+            <button class="slider-dot active" aria-label="Go to testimonial 1" aria-current="true"></button>
+            <button class="slider-dot" aria-label="Go to testimonial 2" aria-current="false"></button>
+            <button class="slider-dot" aria-label="Go to testimonial 3" aria-current="false"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         7. FINAL CTA BANNER
+         ========================================================================== -->
+    <section class="section cta-banner-section" aria-label="Call to action">
+      <div class="container text-center">
+        <h2 class="section-title">Ready to build something exceptional?</h2>
+        <p class="section-desc">Tell us about your project and we will reply with a comprehensive architecture plan and transparent estimate.</p>
+        <div class="hero-cta-group" style="justify-content: center;">
+          <a href="contact.html" class="btn btn-primary btn-lg">Start your project</a>
+          <a href="about.html" class="btn btn-secondary btn-lg">Learn about us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-statement">
+        <div class="brand-link" style="margin-bottom: 1.25rem;">
+          <img src="public/logo.jpeg" alt="Roxware Consultancy Logo" class="brand-logo-img" width="38" height="38">
+          <div>
+            <span class="brand-title">Rox<span>ware</span></span>
+            <span class="brand-subtitle">Consultancy</span>
+          </div>
+        </div>
+        <h2 class="footer-statement-headline">Building fast, resilient digital products with craft and purpose.</h2>
+        <p class="footer-statement-sub">
+          Headquartered in Tamil Nadu, India. Partnering globally with forward-looking founders, engineering leads, and ambitious brands.
+        </p>
+      </div>
+
+      <div class="footer-colophon-grid">
+        <div class="colophon-col">
+          <span class="colophon-heading">Navigation</span>
+          <ul class="colophon-list">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="services.html" class="nav-link">Services</a></li>
+            <li><a href="about.html" class="nav-link">About Us</a></li>
+            <li><a href="blog.html" class="nav-link">Blog</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="colophon-col">
+          <span class="colophon-heading">Capabilities</span>
+          <ul class="colophon-list">
+            <li><a href="services.html" class="nav-link">Web Engineering</a></li>
+            <li><a href="services.html" class="nav-link">Reactive Web Apps</a></li>
+            <li><a href="services.html" class="nav-link">GEO & Technical SEO</a></li>
+            <li><a href="services.html" class="nav-link">Growth Campaigns</a></li>
+            <li><a href="services.html" class="nav-link">Cloud Infrastructure</a></li>
+          </ul>
+        </div>
+
+        <div class="colophon-col">
+          <span class="colophon-heading">Colophon</span>
+          <div class="colophon-meta-item">
+            <span class="colophon-meta-label">Typography</span>
+            <span class="colophon-meta-value">Space Grotesk & Inter</span>
+          </div>
+          <div class="colophon-meta-item">
+            <span class="colophon-meta-label">Stack</span>
+            <span class="colophon-meta-value">Semantic HTML5, CSS3, ES6+</span>
+          </div>
+          <div class="colophon-meta-item">
+            <span class="colophon-meta-label">Design Genre</span>
+            <span class="colophon-meta-value">Modern Minimal Bento</span>
+          </div>
+        </div>
+
+        <div class="colophon-col">
+          <span class="colophon-heading">Studio Direct</span>
+          <div class="colophon-meta-item">
+            <span class="colophon-meta-label">Email</span>
+            <span class="colophon-meta-value"><a href="mailto:hello@roxware.studio" class="nav-link">hello@roxware.studio</a></span>
+          </div>
+          <div class="colophon-meta-item">
+            <span class="colophon-meta-label">Location</span>
+            <span class="colophon-meta-value">Tamil Nadu, India</span>
+          </div>
+          <div style="margin-top: 1rem;">
+            <a href="contact.html" class="btn btn-secondary btn-sm" style="width: 100%; text-align: center;">Book Discovery Call</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-row">
+        <span>&copy; 2026 Roxware Consultancy. All rights reserved.</span>
+        <span>Built with craft and modern web standards. Zero template bloat.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- App Interactivity & Logic -->
+  <script src="app.js?v=multipage_v1"></script>
+  <script>
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        try {
+          if (getComputedStyle(document.body).opacity === '0') {
+            document.body.style.opacity = '1';
+          }
+          document.querySelectorAll('.photo-hero-content.reveal').forEach(function (el) {
+            el.classList.add('visible');
+          });
+        } catch (e) { }
+      }, 2500);
+    });
+  </script>
+</body>
+</html>

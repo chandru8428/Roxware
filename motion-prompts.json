@@ -1,0 +1,245 @@
+{
+  "project": "Roxware Consultancy — Multi-Page Photo-Frame Motion Scroll Site",
+  "version": "1.0",
+  "notes": "Each page has a scroll-driven photo-frame hero. These prompts describe both the static hero image AND the motion video prompt (for future WebP frame extraction or video generation). Camera moves follow the motion-scroll-site skill's camera library.",
+
+  "pages": [
+    {
+      "page": "home",
+      "file": "index.html",
+      "hero_image": "public/hero_home.jpg",
+      "scroll_behavior": "parallax_zoom_out",
+      "scroll_height_vh": 200,
+
+      "still_image_prompt": {
+        "subject": "A high-end tech studio workspace viewed from a medium-wide angle. A large ultrawide monitor displays glowing code with syntax highlighting. The desk surface is dark walnut wood. A mechanical keyboard with subtle RGB backlighting sits centered. Warm copper pendant lamp overhead casts golden directional light. Background wall has floating white wireframe sketches and a large printed circuit board art piece. Warm amber and copper color palette throughout. Soft bokeh on background elements. No people visible.",
+        "style": "Cinematic interior photography, shallow depth of field (f/2.8), warm color grading with copper/amber tones",
+        "aspect_ratio": "16:9",
+        "resolution": "1920x1080",
+        "color_palette": ["#C87431", "#D4915C", "#EAA058", "#1E2530", "#2A3441", "#F8F7F3"],
+        "mood": "Premium, focused, creative tech environment",
+        "lighting": "Warm directional from copper pendant lamp, soft ambient fill, no harsh shadows"
+      },
+
+      "motion_video_prompt": {
+        "camera_move": "slow_dolly_in",
+        "description": "Camera starts at medium-wide establishing shot showing the full desk and wall. Over 3 seconds, slowly dollies forward toward the monitor, narrowing the frame. The copper pendant lamp stays at the top edge. Depth of field shifts — background wall blurs more as we approach the screen. Subtle light flicker from the monitor code. No camera shake.",
+        "duration_seconds": 3,
+        "frame_count": 90,
+        "fps": 30,
+        "easing": "ease-out",
+        "start_frame": {
+          "scale": 1.15,
+          "translate_y": 0,
+          "fov": "wide establishing"
+        },
+        "end_frame": {
+          "scale": 1.0,
+          "translate_y": -30,
+          "fov": "medium close on monitor"
+        },
+        "parallax_layers": [
+          { "layer": "background_wall", "depth": 0.3, "movement": "slow vertical drift up" },
+          { "layer": "desk_surface", "depth": 0.6, "movement": "gentle slide toward camera" },
+          { "layer": "monitor_screen", "depth": 1.0, "movement": "stays relatively fixed, grows" }
+        ]
+      }
+    },
+
+    {
+      "page": "services",
+      "file": "services.html",
+      "hero_image": "public/hero_services.jpg",
+      "scroll_behavior": "parallax_zoom_out",
+      "scroll_height_vh": 140,
+
+      "still_image_prompt": {
+        "subject": "A developer workspace with three monitors showing colorful code editors and terminal windows. The screens glow with syntax-highlighted code in warm amber, copper, and white tones. The desk is clean dark surface with a small succulent plant and a copper-framed notepad. Warm overhead strip lighting creates copper-toned ambient glow. Visible keyboard and mouse. Background has a subtle gradient from dark charcoal to warm slate. Shot from slightly elevated angle looking down at 15 degrees.",
+        "style": "Editorial tech photography, clean composition, warm grading",
+        "aspect_ratio": "16:9",
+        "resolution": "1920x1080",
+        "color_palette": ["#C87431", "#D4915C", "#EAA058", "#0F1318", "#1E2530", "#F5F0E8"],
+        "mood": "Professional, precise, multi-screen productivity",
+        "lighting": "Screen glow as primary light source, warm overhead strip as fill"
+      },
+
+      "motion_video_prompt": {
+        "camera_move": "slow_pan_right_with_tilt",
+        "description": "Camera starts framed on the left monitor and slowly pans right across all three screens over 3 seconds. Slight downward tilt as it moves, revealing the desk surface below. The code on screens has subtle scroll animation. Copper ambient light creates warm rim highlights on monitor bezels. Background stays soft and out of focus.",
+        "duration_seconds": 3,
+        "frame_count": 90,
+        "fps": 30,
+        "easing": "ease-in-out",
+        "start_frame": {
+          "scale": 1.15,
+          "translate_x": -20,
+          "translate_y": 0,
+          "focus": "left monitor"
+        },
+        "end_frame": {
+          "scale": 1.0,
+          "translate_x": 0,
+          "translate_y": -15,
+          "focus": "all three monitors centered"
+        },
+        "parallax_layers": [
+          { "layer": "background_gradient", "depth": 0.2, "movement": "subtle rightward drift" },
+          { "layer": "desk_objects", "depth": 0.5, "movement": "medium pan with camera" },
+          { "layer": "monitor_screens", "depth": 1.0, "movement": "code scrolls within screens" }
+        ]
+      }
+    },
+
+    {
+      "page": "about",
+      "file": "about.html",
+      "hero_image": "public/hero_about.jpg",
+      "scroll_behavior": "parallax_zoom_out",
+      "scroll_height_vh": 140,
+
+      "still_image_prompt": {
+        "subject": "A modern creative agency open office space with warm copper pendant lights hanging from exposed ceiling beams. Large wooden collaborative table in the center with laptops, design books, and coffee cups. Floor-to-ceiling windows on the right letting in warm golden hour sunlight. Green indoor plants in ceramic pots add life. Whiteboard in the background with sticky notes and wireframe sketches. The overall palette is warm neutrals with copper metal accents. Two ergonomic chairs visible but no people in the shot.",
+        "style": "Architectural interior photography, natural light, warm editorial tone",
+        "aspect_ratio": "16:9",
+        "resolution": "1920x1080",
+        "color_palette": ["#C87431", "#D4915C", "#E8D5C0", "#2A3441", "#F8F7F3", "#6B8F71"],
+        "mood": "Collaborative, creative, warm professional environment",
+        "lighting": "Golden hour window light from right, copper pendant lamps as accent, soft shadows"
+      },
+
+      "motion_video_prompt": {
+        "camera_move": "slow_orbit_left",
+        "description": "Camera slowly orbits from right-center to left-center around the collaborative table over 3 seconds. The golden hour light from the windows shifts as the camera moves, creating dynamic light play on the table surface. Pendant lamps create subtle copper lens flares. Plants sway gently from an unseen breeze. Depth of field keeps the table sharp while the whiteboard background stays soft.",
+        "duration_seconds": 3,
+        "frame_count": 90,
+        "fps": 30,
+        "easing": "ease-in-out",
+        "start_frame": {
+          "scale": 1.12,
+          "translate_x": 15,
+          "translate_y": 0,
+          "focus": "right side of table near windows"
+        },
+        "end_frame": {
+          "scale": 1.0,
+          "translate_x": -10,
+          "translate_y": -20,
+          "focus": "full table and pendant lights"
+        },
+        "parallax_layers": [
+          { "layer": "background_whiteboard", "depth": 0.2, "movement": "slow leftward parallax" },
+          { "layer": "pendant_lights", "depth": 0.4, "movement": "gentle sway, leftward shift" },
+          { "layer": "table_surface", "depth": 0.7, "movement": "perspective shift with orbit" },
+          { "layer": "window_light", "depth": 1.0, "movement": "light rays angle change" }
+        ]
+      }
+    },
+
+    {
+      "page": "contact",
+      "file": "contact.html",
+      "hero_image": "public/hero_contact.jpg",
+      "scroll_behavior": "parallax_zoom_out",
+      "scroll_height_vh": 140,
+
+      "still_image_prompt": {
+        "subject": "A panoramic golden hour cityscape seen from a rooftop terrace. In the foreground, a slim laptop sits open on a minimalist copper-framed table with a ceramic coffee cup beside it. The city skyline is visible in the warm background with buildings catching golden sunset light. Thin copper-colored connectivity lines overlay the sky like subtle digital network threads. A potted olive tree on the terrace edge adds organic contrast. The terrace has light stone flooring.",
+        "style": "Lifestyle tech photography, golden hour warmth, wide panoramic framing",
+        "aspect_ratio": "16:9",
+        "resolution": "1920x1080",
+        "color_palette": ["#C87431", "#EAA058", "#FFD4A0", "#1E2530", "#4A6FA5", "#F8F7F3"],
+        "mood": "Global connectivity, accessible, warm and inviting",
+        "lighting": "Golden hour backlighting from setting sun, warm fill from reflected sky"
+      },
+
+      "motion_video_prompt": {
+        "camera_move": "slow_crane_up",
+        "description": "Camera starts at table level showing the laptop and coffee cup prominently, then slowly cranes upward over 3 seconds to reveal the full cityscape panorama. The connectivity lines in the sky become more visible as the camera rises. Golden hour light intensifies as more sky enters the frame. The laptop screen glows with the Roxware contact page. Slight atmospheric haze adds depth to distant buildings.",
+        "duration_seconds": 3,
+        "frame_count": 90,
+        "fps": 30,
+        "easing": "ease-out",
+        "start_frame": {
+          "scale": 1.15,
+          "translate_y": 20,
+          "focus": "laptop and table level"
+        },
+        "end_frame": {
+          "scale": 1.0,
+          "translate_y": -25,
+          "focus": "cityscape panorama with sky"
+        },
+        "parallax_layers": [
+          { "layer": "sky_and_lines", "depth": 0.15, "movement": "very slow upward reveal" },
+          { "layer": "cityscape", "depth": 0.4, "movement": "gentle vertical parallax" },
+          { "layer": "terrace_and_table", "depth": 0.8, "movement": "slides down as camera rises" },
+          { "layer": "laptop_screen", "depth": 1.0, "movement": "exits bottom of frame" }
+        ]
+      }
+    },
+
+    {
+      "page": "blog",
+      "file": "blog.html",
+      "hero_image": "public/hero_blog.jpg",
+      "scroll_behavior": "parallax_zoom_out",
+      "scroll_height_vh": 140,
+
+      "still_image_prompt": {
+        "subject": "A creative desk scene photographed from above at 30-degree angle. An open leather-bound notebook with hand-drawn wireframe sketches and flow diagrams sits next to a tablet displaying article layouts with warm copper typography. A copper desk lamp with an Edison bulb casts warm directional light from the left. Scattered around the desk: a small stack of design books, a ceramic pen holder with copper-tipped pens, a wireless mouse, and a small potted succulent. The desk surface is matte dark wood grain. Warm ambient lighting throughout.",
+        "style": "Flat-lay editorial photography, warm overhead angle, shallow DOF on edges",
+        "aspect_ratio": "16:9",
+        "resolution": "1920x1080",
+        "color_palette": ["#C87431", "#D4915C", "#E8D5C0", "#1E2530", "#8B7355", "#F5F0E8"],
+        "mood": "Creative, thoughtful, editorial craft",
+        "lighting": "Copper desk lamp as key light from left, soft ambient fill, warm shadows"
+      },
+
+      "motion_video_prompt": {
+        "camera_move": "slow_push_in_with_rotation",
+        "description": "Camera starts at a wider overhead angle showing the full desk layout, then slowly pushes in and rotates 5 degrees clockwise over 3 seconds to focus on the notebook and tablet. The desk lamp light creates a moving shadow as the perspective shifts. The tablet screen content subtly scrolls. Edison bulb has a gentle warm flicker. Pen shadows shift with the camera angle change.",
+        "duration_seconds": 3,
+        "frame_count": 90,
+        "fps": 30,
+        "easing": "ease-in-out",
+        "start_frame": {
+          "scale": 1.12,
+          "translate_y": 0,
+          "rotation": 0,
+          "focus": "full desk overview"
+        },
+        "end_frame": {
+          "scale": 1.0,
+          "translate_y": -20,
+          "rotation": 5,
+          "focus": "notebook and tablet centered"
+        },
+        "parallax_layers": [
+          { "layer": "desk_edges", "depth": 0.2, "movement": "rotate and blur out" },
+          { "layer": "books_and_accessories", "depth": 0.5, "movement": "subtle shift with rotation" },
+          { "layer": "notebook_and_tablet", "depth": 0.9, "movement": "stays centered, slight grow" },
+          { "layer": "lamp_light", "depth": 1.0, "movement": "shadow angle shifts 5 degrees" }
+        ]
+      }
+    }
+  ],
+
+  "global_scroll_config": {
+    "scroll_engine": "requestAnimationFrame with lerp interpolation",
+    "lerp_factor": 0.12,
+    "parallax_technique": "CSS transform scale + translateY on sticky container",
+    "fallback": "Static image with no parallax for prefers-reduced-motion",
+    "frame_extraction_format": "WebP (if video source available)",
+    "canvas_scrub_method": "Not needed — CSS transform parallax used instead of canvas frame scrub since source is still image"
+  },
+
+  "design_tokens": {
+    "hero_initial_scale": 1.15,
+    "hero_final_scale": 1.0,
+    "hero_max_translateY": -30,
+    "content_fade_multiplier": 1.5,
+    "content_shift_px": 40,
+    "overlay_gradient_dark": "linear-gradient(180deg, rgba(10,14,20,0.3) 0%, rgba(10,14,20,0.55) 40%, rgba(10,14,20,0.8) 100%)",
+    "overlay_gradient_light": "linear-gradient(180deg, rgba(248,247,243,0.25) 0%, rgba(248,247,243,0.5) 40%, rgba(248,247,243,0.85) 100%)"
+  }
+}

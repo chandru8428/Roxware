@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | Roxware Consultancy - Our Story, Team & Values</title>
+  <meta name="description" content="Roxware Consultancy is a creative web development and IT studio based in Tamil Nadu, India. Learn about our mission, values, and the engineering team behind your next digital product.">
+  <meta name="theme-color" content="#0A0E14">
+  <link rel="icon" type="image/jpeg" href="public/logo.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('roxware_theme'); } catch (e) { }
+      if (t !== 'light' && t !== 'dark') {
+        t = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+      }
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <link rel="stylesheet" href="styles.css?v=multipage_v1">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- HEADER -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-link" aria-label="Roxware Consultancy Home">
+        <img src="public/logo.jpeg" alt="Roxware Consultancy Logo" class="brand-logo-img" width="40" height="40">
+        <div><span class="brand-title">Rox<span>ware</span></span><span class="brand-subtitle">Consultancy</span></div>
+      </a>
+      <nav class="nav-desktop" role="navigation" aria-label="Primary Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="about.html" class="nav-link active">About Us</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle dark and light theme" title="Toggle theme">
+          <svg class="theme-icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          <svg class="theme-icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+        <a href="contact.html" class="btn btn-primary btn-sm header-cta-btn">Start a project</a>
+        <button class="mobile-nav-toggle" aria-expanded="false" aria-label="Toggle navigation menu" id="mobileNavToggle"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <div class="mobile-nav-drawer" id="mobileNavDrawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+      <div style="display: flex; justify-content: space-between; align-items: center; padding-bottom: 0.5rem; border-bottom: 1px solid var(--color-border);"><span style="font-weight: 600; font-size: 0.9rem; color: var(--color-text-muted);">Theme</span><button class="btn btn-secondary btn-sm" id="mobileThemeToggleBtn" style="padding: 0.35rem 0.85rem; font-size: 0.8rem;">Toggle Theme</button></div>
+      <a href="index.html" class="nav-link">Home</a><a href="services.html" class="nav-link">Services</a><a href="about.html" class="nav-link">About Us</a><a href="blog.html" class="nav-link">Blog</a><a href="contact.html" class="nav-link">Contact</a>
+      <a href="contact.html" class="btn btn-primary btn-lg" style="margin-top: 1rem;">Start a Project</a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- PHOTO-FRAME HERO -->
+    <section class="photo-hero-scroll-container photo-hero-short" id="hero" aria-label="About Hero">
+      <div class="photo-hero-sticky" id="photoHeroSticky">
+        <div class="photo-hero-frame" aria-hidden="true">
+          <img src="public/hero_about.jpg" alt="Modern creative agency office with copper pendant lights and collaborative team environment" class="photo-hero-img" id="heroPhotoImg" width="1920" height="1080" loading="eager" decoding="async">
+          <div class="photo-hero-overlay"></div>
+        </div>
+        <div class="container photo-hero-content reveal">
+          <span class="page-breadcrumb">Home / About Us</span>
+          <h1 class="hero-headline">The studio behind <span class="text-copper">your next digital product.</span></h1>
+          <p class="hero-subhead">Roxware Consultancy is a creative web development and IT services studio based in Tamil Nadu, India, partnering with clients globally.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR STORY -->
+    <section class="section" id="our-story" aria-label="Our Story">
+      <div class="container">
+        <div class="about-split-layout">
+          <div class="about-text-col">
+            <h2 class="section-title">Our story</h2>
+            <p class="section-desc">Roxware started with a simple belief: great digital products are built when engineering precision meets creative design thinking. We combine full-stack application development, search intelligence, and resilient infrastructure to deliver complete digital solutions.</p>
+            <p class="section-desc">Based in Tamil Nadu, India, we work with startups, SMEs, and growing brands across the world. Every project gets a dedicated engineering team, transparent timelines, and code that is built to last.</p>
+          </div>
+          <div class="about-values-col">
+            <div class="value-card">
+              <h3>Craft over shortcuts</h3>
+              <p>Every line of code is written for performance, readability, and long-term maintainability.</p>
+            </div>
+            <div class="value-card">
+              <h3>Transparent process</h3>
+              <p>Weekly progress updates, direct access to your engineering team, and no surprises on delivery day.</p>
+            </div>
+            <div class="value-card">
+              <h3>Results-driven</h3>
+              <p>We measure success by your metrics -- page speed, conversion rates, search rankings, and uptime.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW WE WORK -->
+    <section class="section section-dark-elevated" id="process" aria-label="Our Process">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title">How we work</h2>
+          <p class="section-desc">A four-phase process that takes your project from discovery to global launch.</p>
+        </div>
+        <div class="process-timeline">
+          <div class="process-step">
+            <span class="process-step-num">01</span>
+            <h3>Discovery</h3>
+            <p>We analyze your product vision, define constraints, and sculpt the foundational architecture.</p>
+          </div>
+          <div class="process-step">
+            <span class="process-step-num">02</span>
+            <h3>Design</h3>
+            <p>We engineer spatial UX flows, bespoke design systems, and responsive token hierarchies.</p>
+          </div>
+          <div class="process-step">
+            <span class="process-step-num">03</span>
+            <h3>Develop and test</h3>
+            <p>Clean code, automated test suites, and sub-second latency optimization.</p>
+          </div>
+          <div class="process-step">
+            <span class="process-step-num">04</span>
+            <h3>Launch and grow</h3>
+            <p>Zero-downtime deployment, GEO search dominance, and continuous scaling.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECH STACK -->
+    <section class="section" id="tech" aria-label="Technology Stack">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title">Technology we work with</h2>
+        </div>
+        <div class="tech-stack-grid">
+          <div class="tech-chip">React / Next.js</div>
+          <div class="tech-chip">Node.js</div>
+          <div class="tech-chip">TypeScript</div>
+          <div class="tech-chip">Python</div>
+          <div class="tech-chip">Three.js / WebGL</div>
+          <div class="tech-chip">PostgreSQL</div>
+          <div class="tech-chip">MongoDB</div>
+          <div class="tech-chip">AWS</div>
+          <div class="tech-chip">Docker</div>
+          <div class="tech-chip">Cloudflare</div>
+          <div class="tech-chip">Figma</div>
+          <div class="tech-chip">Git / CI-CD</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-banner-section" aria-label="Call to action">
+      <div class="container text-center">
+        <h2 class="section-title">Ready to work with Roxware?</h2>
+        <p class="section-desc">We reply with a detailed architecture proposal within 1 business day.</p>
+        <a href="contact.html" class="btn btn-primary btn-lg">Start your project</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-statement">
+        <div class="brand-link" style="margin-bottom: 1.25rem;">
+          <img src="public/logo.jpeg" alt="Roxware Consultancy Logo" class="brand-logo-img" width="38" height="38">
+          <div><span class="brand-title">Rox<span>ware</span></span><span class="brand-subtitle">Consultancy</span></div>
+        </div>
+        <h2 class="footer-statement-headline">Building fast, resilient digital products with craft and purpose.</h2>
+      </div>
+      <div class="footer-colophon-grid">
+        <div class="colophon-col"><span class="colophon-heading">Navigation</span><ul class="colophon-list"><li><a href="index.html" class="nav-link">Home</a></li><li><a href="services.html" class="nav-link">Services</a></li><li><a href="about.html" class="nav-link">About Us</a></li><li><a href="blog.html" class="nav-link">Blog</a></li><li><a href="contact.html" class="nav-link">Contact</a></li></ul></div>
+        <div class="colophon-col"><span class="colophon-heading">Studio Direct</span><div class="colophon-meta-item"><span class="colophon-meta-label">Email</span><span class="colophon-meta-value"><a href="mailto:hello@roxware.studio" class="nav-link">hello@roxware.studio</a></span></div><div class="colophon-meta-item"><span class="colophon-meta-label">Location</span><span class="colophon-meta-value">Tamil Nadu, India</span></div></div>
+      </div>
+      <div class="footer-bottom-row"><span>&copy; 2026 Roxware Consultancy. All rights reserved.</span></div>
+    </div>
+  </footer>
+
+  <script src="app.js?v=multipage_v1"></script>
+</body>
+</html>

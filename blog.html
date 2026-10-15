@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | Roxware Consultancy - Insights on Web Development, SEO & Digital Growth</title>
+  <meta name="description" content="Articles on web performance, UX, SEO, digital campaigns and IT reliability from the Roxware engineering team.">
+  <meta name="theme-color" content="#0A0E14">
+  <link rel="icon" type="image/jpeg" href="public/logo.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('roxware_theme'); } catch (e) { }
+      if (t !== 'light' && t !== 'dark') {
+        t = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+      }
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <link rel="stylesheet" href="styles.css?v=multipage_v1">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- HEADER -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-link" aria-label="Roxware Consultancy Home">
+        <img src="public/logo.jpeg" alt="Roxware Consultancy Logo" class="brand-logo-img" width="40" height="40">
+        <div><span class="brand-title">Rox<span>ware</span></span><span class="brand-subtitle">Consultancy</span></div>
+      </a>
+      <nav class="nav-desktop" role="navigation" aria-label="Primary Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="blog.html" class="nav-link active">Blog</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle dark and light theme" title="Toggle theme">
+          <svg class="theme-icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          <svg class="theme-icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+        <a href="contact.html" class="btn btn-primary btn-sm header-cta-btn">Start a project</a>
+        <button class="mobile-nav-toggle" aria-expanded="false" aria-label="Toggle navigation menu" id="mobileNavToggle"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <div class="mobile-nav-drawer" id="mobileNavDrawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+      <div style="display: flex; justify-content: space-between; align-items: center; padding-bottom: 0.5rem; border-bottom: 1px solid var(--color-border);"><span style="font-weight: 600; font-size: 0.9rem; color: var(--color-text-muted);">Theme</span><button class="btn btn-secondary btn-sm" id="mobileThemeToggleBtn" style="padding: 0.35rem 0.85rem; font-size: 0.8rem;">Toggle Theme</button></div>
+      <a href="index.html" class="nav-link">Home</a><a href="services.html" class="nav-link">Services</a><a href="about.html" class="nav-link">About Us</a><a href="blog.html" class="nav-link">Blog</a><a href="contact.html" class="nav-link">Contact</a>
+      <a href="contact.html" class="btn btn-primary btn-lg" style="margin-top: 1rem;">Start a Project</a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- PHOTO-FRAME HERO -->
+    <section class="photo-hero-scroll-container photo-hero-short" id="hero" aria-label="Blog Hero">
+      <div class="photo-hero-sticky" id="photoHeroSticky">
+        <div class="photo-hero-frame" aria-hidden="true">
+          <img src="public/hero_blog.jpg" alt="Creative desk scene with notebook sketches, tablet showing article layouts, and copper desk lamp" class="photo-hero-img" id="heroPhotoImg" width="1920" height="1080" loading="eager" decoding="async">
+          <div class="photo-hero-overlay"></div>
+        </div>
+        <div class="container photo-hero-content reveal">
+          <span class="page-breadcrumb">Home / Blog</span>
+          <h1 class="hero-headline">Insights from the <span class="text-copper">Roxware team.</span></h1>
+          <p class="hero-subhead">Articles on web performance, UX, SEO, digital campaigns and IT reliability.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOG POSTS GRID -->
+    <section class="section" id="posts" aria-label="Blog Posts">
+      <div class="container">
+        <div class="blog-grid">
+          <!-- Post 1 -->
+          <article class="blog-card">
+            <div class="blog-card-media">
+              <img src="public/case_saas.jpg" alt="Web app performance dashboard" class="blog-card-img" loading="lazy" decoding="async">
+            </div>
+            <div class="blog-card-body">
+              <div class="blog-card-meta">
+                <span class="blog-category">Web Development</span>
+                <time datetime="2026-10-01">Oct 1, 2026</time>
+              </div>
+              <h2 class="blog-card-title">Checklist for launching a high-performance web app</h2>
+              <p class="blog-card-excerpt">From Core Web Vitals auditing to bundle optimization and lazy loading strategies, here is what to verify before every production deployment.</p>
+              <span class="blog-read-more">Read article &rarr;</span>
+            </div>
+          </article>
+
+          <!-- Post 2 -->
+          <article class="blog-card">
+            <div class="blog-card-media">
+              <img src="public/case_retail.jpg" alt="Local search results on mobile device" class="blog-card-img" loading="lazy" decoding="async">
+            </div>
+            <div class="blog-card-body">
+              <div class="blog-card-meta">
+                <span class="blog-category">SEO & GEO</span>
+                <time datetime="2026-09-18">Sep 18, 2026</time>
+              </div>
+              <h2 class="blog-card-title">How local SEO and GEO optimization help service businesses grow</h2>
+              <p class="blog-card-excerpt">Location-targeted pages, map listings and regional keyword strategies that put your business in front of high-intent local buyers.</p>
+              <span class="blog-read-more">Read article &rarr;</span>
+            </div>
+          </article>
+
+          <!-- Post 3 -->
+          <article class="blog-card">
+            <div class="blog-card-media">
+              <img src="public/case_creator.jpg" alt="Analytics dashboard with conversion funnel" class="blog-card-img" loading="lazy" decoding="async">
+            </div>
+            <div class="blog-card-body">
+              <div class="blog-card-meta">
+                <span class="blog-category">Digital Marketing</span>
+                <time datetime="2026-09-05">Sep 5, 2026</time>
+              </div>
+              <h2 class="blog-card-title">Design to data: connecting landing pages to real analytics</h2>
+              <p class="blog-card-excerpt">Event tracking, funnel analysis and UX improvements that turn creative design work into measurable business outcomes.</p>
+              <span class="blog-read-more">Read article &rarr;</span>
+            </div>
+          </article>
+
+          <!-- Post 4 -->
+          <article class="blog-card">
+            <div class="blog-card-media">
+              <img src="public/hero_home.jpg" alt="Modern development workspace" class="blog-card-img" loading="lazy" decoding="async">
+            </div>
+            <div class="blog-card-body">
+              <div class="blog-card-meta">
+                <span class="blog-category">Engineering</span>
+                <time datetime="2026-08-22">Aug 22, 2026</time>
+              </div>
+              <h2 class="blog-card-title">Why we build with TypeScript and what it costs</h2>
+              <p class="blog-card-excerpt">Strict type safety catches bugs before they ship, but it adds time to the build. Here is how we balance velocity with reliability.</p>
+              <span class="blog-read-more">Read article &rarr;</span>
+            </div>
+          </article>
+
+          <!-- Post 5 -->
+          <article class="blog-card">
+            <div class="blog-card-media">
+              <img src="public/hero_services.jpg" alt="Multi-monitor development setup" class="blog-card-img" loading="lazy" decoding="async">
+            </div>
+            <div class="blog-card-body">
+              <div class="blog-card-meta">
+                <span class="blog-category">IT Infrastructure</span>
+                <time datetime="2026-08-10">Aug 10, 2026</time>
+              </div>
+              <h2 class="blog-card-title">Zero-downtime deployments with Docker and automated rollbacks</h2>
+              <p class="blog-card-excerpt">Containerized deployment strategies that keep your application live during updates, with automatic rollback on health check failures.</p>
+              <span class="blog-read-more">Read article &rarr;</span>
+            </div>
+          </article>
+
+          <!-- Post 6 -->
+          <article class="blog-card">
+            <div class="blog-card-media">
+              <img src="public/hero_about.jpg" alt="Team collaboration in modern office" class="blog-card-img" loading="lazy" decoding="async">
+            </div>
+            <div class="blog-card-body">
+              <div class="blog-card-meta">
+                <span class="blog-category">Studio Notes</span>
+                <time datetime="2026-07-28">Jul 28, 2026</time>
+              </div>
+              <h2 class="blog-card-title">How Roxware runs a distributed engineering team across time zones</h2>
+              <p class="blog-card-excerpt">Async-first communication, structured handoffs, and automated deployment pipelines that keep projects moving 24 hours a day.</p>
+              <span class="blog-read-more">Read article &rarr;</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-banner-section" aria-label="Call to action">
+      <div class="container text-center">
+        <h2 class="section-title">Want to discuss a project?</h2>
+        <p class="section-desc">We are always happy to talk about web development, SEO strategies, or IT architecture.</p>
+        <a href="contact.html" class="btn btn-primary btn-lg">Get in touch</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-statement">
+        <div class="brand-link" style="margin-bottom: 1.25rem;">
+          <img src="public/logo.jpeg" alt="Roxware Consultancy Logo" class="brand-logo-img" width="38" height="38">
+          <div><span class="brand-title">Rox<span>ware</span></span><span class="brand-subtitle">Consultancy</span></div>
+        </div>
+        <h2 class="footer-statement-headline">Building fast, resilient digital products with craft and purpose.</h2>
+      </div>
+      <div class="footer-colophon-grid">
+        <div class="colophon-col"><span class="colophon-heading">Navigation</span><ul class="colophon-list"><li><a href="index.html" class="nav-link">Home</a></li><li><a href="services.html" class="nav-link">Services</a></li><li><a href="about.html" class="nav-link">About Us</a></li><li><a href="blog.html" class="nav-link">Blog</a></li><li><a href="contact.html" class="nav-link">Contact</a></li></ul></div>
+        <div class="colophon-col"><span class="colophon-heading">Studio Direct</span><div class="colophon-meta-item"><span class="colophon-meta-label">Email</span><span class="colophon-meta-value"><a href="mailto:hello@roxware.studio" class="nav-link">hello@roxware.studio</a></span></div><div class="colophon-meta-item"><span class="colophon-meta-label">Location</span><span class="colophon-meta-value">Tamil Nadu, India</span></div></div>
+      </div>
+      <div class="footer-bottom-row"><span>&copy; 2026 Roxware Consultancy. All rights reserved.</span></div>
+    </div>
+  </footer>
+
+  <script src="app.js?v=multipage_v1"></script>
+</body>
+</html>

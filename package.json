@@ -1,0 +1,18 @@
+{
+  "name": "roxware-consultancy",
+  "version": "1.0.0",
+  "description": "Roxware Consultancy Landing Page & Web App",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve -l 8080",
+    "start": "npx serve -l 8080",
+    "serve": "npx serve -l 8080"
+  },
+  "keywords": [
+    "threejs",
+    "webgl",
+    "roxware"
+  ],
+  "author": "Roxware Consultancy",
+  "license": "ISC"
+}
