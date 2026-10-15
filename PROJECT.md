@@ -117,6 +117,7 @@ Camera moves follow the motion-scroll-site skill's library:
 - ✅ Schema.org JSON-LD structured data (ProfessionalService, WebSite, FAQPage, Service, AboutPage, Blog, ContactPage, Breadcrumbs)
 - ✅ Search engine assets: robots.txt, sitemap.xml, site.webmanifest
 - ✅ Image SEO & Core Web Vitals optimization (100% explicit width/height, lazy loading, async decoding, zero CLS)
+- ✅ Hero clarity & contrast optimization: removed milky overlay, added top clearance to avoid navbar overlap, high-contrast typography, and live studio metrics (50+, 99.9%, < 24h)
 
 ## Roadmap
 - [ ] Generate actual motion videos from prompts (WebP frame sequences)
